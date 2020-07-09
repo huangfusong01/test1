@@ -7,6 +7,9 @@ print(BASE_PATH)
 import sys
 sys.path.append(BASE_PATH)
 print(sys.path)
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(os.path.split(rootPath)[0])
 from common import HTMLTestReportCN
 import smtplib
 #import pytest
