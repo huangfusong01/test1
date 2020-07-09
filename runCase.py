@@ -16,7 +16,7 @@ import smtplib
 import time
 import unittest
 #import xmlrunner as xmlrunner
-from configs.settings import TESTCASE_PATH,REPORT_PATH
+from .configs.settings import TESTCASE_PATH,REPORT_PATH
 from common.send_email import new_report, report_path, send_email
 
 
