@@ -1,5 +1,5 @@
 ﻿import xlrd
-from config.settings import *
+from configs.settings import *
 path_finance = r'C:\Users\cat\Desktop\finance.xlsx'
 path_d = r'D:\PycharmProjects\test\config\test.xlsx'
 path_service = r'C:\Users\cat\Desktop\service.xlsx'

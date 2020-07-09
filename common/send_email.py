@@ -4,9 +4,9 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.header import Header
-import config.settings
+import configs.settings
 
-report_path = config.settings.REPORT_PATH #'D:\\PycharmProjects\\test\\report\\'#
+report_path = configs.settings.REPORT_PATH #'D:\\PycharmProjects\\test\\report\\'#
 #print(report_path)
 def send_email(report):
     #打开文件
