@@ -1,0 +1,2389 @@
+2020-07-03 17:02:04,053 - D:/PyProjects/test/common/logger.py[line:37] - INFO: test
+2020-07-03 17:02:12,009 - D:/PyProjects/test/common/logger.py[line:37] - INFO: test
+2020-07-03 17:03:15,049 - D:/PyProjects/test/config/settings.py[line:38] - INFO: 断言成功,实际值:1 等于预期值:1
+2020-07-03 17:03:35,048 - D:/PyProjects/test/config/settings.py[line:38] - INFO: 断言成功,实际值:1 等于预期值:1
+2020-07-03 17:03:35,048 - D:/PyProjects/test/config/settings.py[line:38] - INFO: 断言成功,实际值:1 等于预期值:1
+2020-07-03 17:03:35,048 - D:/PyProjects/test/config/settings.py[line:38] - INFO: 断言成功,实际值:1 等于预期值:1
+2020-07-03 17:03:35,049 - D:/PyProjects/test/config/settings.py[line:38] - INFO: 断言成功,实际值:1 等于预期值:1
+2020-07-03 17:03:35,049 - D:/PyProjects/test/config/settings.py[line:38] - INFO: 断言成功,实际值:1 等于预期值:1
+2020-07-03 17:48:05,526 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户登录接口
+2020-07-03 17:48:05,526 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 17:48:05,527 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://customer.17feia.com/author/v1/subject/login
+2020-07-03 17:48:05,527 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 17:48:05,528 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 17:48:05,528 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 17:48:05,528 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 17:48:05,529 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 17:48:05,529 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Fri, 03 Jul 2020 09:48:03 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 09:48:03 GMT, JSESSIONID=34f8c040-b0fd-46c6-87eb-23a46d065b01;domain=17feia.com;path=/;HttpOnly'}
+2020-07-03 17:48:05,529 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 17:48:05,534 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 msg=>LOGIN_SUCCESS 到全局变量池
+2020-07-03 17:48:05,535 - D:\PyProjects\test\common\interfance.py[line:72] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 17:48:05,614 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>判断是否登录
+2020-07-03 17:48:05,614 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>get
+2020-07-03 17:48:05,614 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://customer.17feia.com/public/v1/subject/isLogin
+2020-07-03 17:48:05,615 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 17:48:05,615 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 17:48:05,615 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 17:48:05,616 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 17:48:05,616 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 17:48:05,616 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Fri, 03 Jul 2020 09:48:03 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '50', 'Connection': 'keep-alive'}
+2020-07-03 17:48:05,617 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"flag":true,
+	"msg":"## success",
+	"obj":null
+}
+2020-07-03 17:48:05,704 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>获取公司信息
+2020-07-03 17:48:05,704 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 17:48:05,704 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://customer.17feia.com/author/user/getCompanyInfo
+2020-07-03 17:48:05,705 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 17:48:05,705 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 17:48:05,705 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 17:48:05,706 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 17:48:05,706 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>404
+2020-07-03 17:48:05,707 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Fri, 03 Jul 2020 09:48:03 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '149', 'Connection': 'keep-alive'}
+2020-07-03 17:48:05,707 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"timestamp":"2020-07-03 17:48:03",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/author/user/getCompanyInfo"
+}
+2020-07-03 17:48:05,802 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>获取用户信息
+2020-07-03 17:48:05,803 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 17:48:05,803 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/subject/getLoginCustomerInfo
+2020-07-03 17:48:05,803 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 17:48:05,804 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 17:48:05,804 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 17:48:05,804 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 17:48:05,805 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>404
+2020-07-03 17:48:05,805 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Fri, 03 Jul 2020 09:48:04 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '163', 'Connection': 'keep-alive'}
+2020-07-03 17:48:05,805 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"timestamp":"2020-07-03 17:48:04",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/subject/getLoginCustomerInfo"
+}
+2020-07-03 17:48:05,919 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>获取菜单栏
+2020-07-03 17:48:05,920 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>get
+2020-07-03 17:48:05,920 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/menu/findMenusByUser
+2020-07-03 17:48:05,920 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 17:48:05,921 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 17:48:05,921 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 17:48:05,921 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 17:48:05,922 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>404
+2020-07-03 17:48:05,922 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Fri, 03 Jul 2020 09:48:04 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '155', 'Connection': 'keep-alive'}
+2020-07-03 17:48:05,922 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"timestamp":"2020-07-03 17:48:04",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/menu/findMenusByUser"
+}
+2020-07-03 17:48:06,089 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>登出
+2020-07-03 17:48:06,090 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>get
+2020-07-03 17:48:06,090 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/logout
+2020-07-03 17:48:06,091 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 17:48:06,091 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 17:48:06,091 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 17:48:06,092 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 17:48:06,092 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 17:48:06,092 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Fri, 03 Jul 2020 09:48:04 GMT', 'Content-Type': 'text/html', 'Content-Length': '5100', 'Last-Modified': 'Mon, 29 Jun 2020 08:56:18 GMT', 'Connection': 'keep-alive', 'ETag': '"5ef9acb2-13ec"', 'Accept-Ranges': 'bytes'}
+2020-07-03 17:48:06,093 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====><!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=./favicon.ico type=image/x-icon><title>Parcels System</title><script src=./static/assets/js/gt.js></script><link href=http://at.alicdn.com/t/font_1530113_vbnkki1qyn.css rel=stylesheet type=text/css><link href=static/css/chunk-00011340.d2587d2d.css rel=prefetch><link href=static/css/chunk-006dc2e4.977e6ce1.css rel=prefetch><link href=static/css/chunk-0477d616.304a389a.css rel=prefetch><link href=static/css/chunk-0af74ad3.face4b9b.css rel=prefetch><link href=static/css/chunk-0bed8262.824a4ef8.css rel=prefetch><link href=static/css/chunk-1018cb42.cb24f1c4.css rel=prefetch><link href=static/css/chunk-111199ab.5167911d.css rel=prefetch><link href=static/css/chunk-11c41ca4.36906228.css rel=prefetch><link href=static/css/chunk-12c72f68.50aa4c00.css rel=prefetch><link href=static/css/chunk-13e95aef.f7070104.css rel=prefetch><link href=static/css/chunk-1c984023.635fbcaa.css rel=prefetch><link href=static/css/chunk-21e35c50.ead47afb.css rel=prefetch><link href=static/css/chunk-289d5035.cdca1c5b.css rel=prefetch><link href=static/css/chunk-2a0c0d69.a79fd2fb.css rel=prefetch><link href=static/css/chunk-30c42808.3f0cf9c2.css rel=prefetch><link href=static/css/chunk-37b7374a.5f00c13c.css rel=prefetch><link href=static/css/chunk-403a311a.c96c59d5.css rel=prefetch><link href=static/css/chunk-44a77a3a.24fedd6d.css rel=prefetch><link href=static/css/chunk-459074ad.b346c9de.css rel=prefetch><link href=static/css/chunk-597f14d4.81bda12e.css rel=prefetch><link href=static/css/chunk-5e53d252.fe3ab34c.css rel=prefetch><link href=static/css/chunk-60c6bbd2.bacb786d.css rel=prefetch><link href=static/css/chunk-6922c06f.267fc8ed.css rel=prefetch><link href=static/css/chunk-6a5cf5d0.4675d4d7.css rel=prefetch><link href=static/css/chunk-754117c9.c60a95ec.css rel=prefetch><link href=static/css/chunk-76687867.f7c166b1.css rel=prefetch><link href=static/css/chunk-8c65274e.8fb96920.css rel=prefetch><link href=static/css/chunk-8dfd7bd4.2aa8b684.css rel=prefetch><link href=static/css/chunk-b859e8b2.f6014242.css rel=prefetch><link href=static/css/chunk-c8588832.f0d0b75f.css rel=prefetch><link href=static/css/chunk-cc40743c.55d4bf34.css rel=prefetch><link href=static/js/chunk-00011340.1e563378.js rel=prefetch><link href=static/js/chunk-006dc2e4.ace3064f.js rel=prefetch><link href=static/js/chunk-0477d616.0736e7f6.js rel=prefetch><link href=static/js/chunk-0af74ad3.55570bab.js rel=prefetch><link href=static/js/chunk-0bed8262.f71e308a.js rel=prefetch><link href=static/js/chunk-1018cb42.5e291cd7.js rel=prefetch><link href=static/js/chunk-111199ab.889dc6ca.js rel=prefetch><link href=static/js/chunk-11c41ca4.df7afc76.js rel=prefetch><link href=static/js/chunk-12c72f68.716433bd.js rel=prefetch><link href=static/js/chunk-13e95aef.fe9a5fe4.js rel=prefetch><link href=static/js/chunk-1c984023.281f7683.js rel=prefetch><link href=static/js/chunk-21e35c50.de5f81ca.js rel=prefetch><link href=static/js/chunk-289d5035.14869fe2.js rel=prefetch><link href=static/js/chunk-2a0c0d69.fc78dd5d.js rel=prefetch><link href=static/js/chunk-2d0b2168.b3db0cf1.js rel=prefetch><link href=static/js/chunk-2d0cf3a0.572c6626.js rel=prefetch><link href=static/js/chunk-2d229d78.49f52f60.js rel=prefetch><link href=static/js/chunk-30c42808.64f953e3.js rel=prefetch><link href=static/js/chunk-37b7374a.86b37d43.js rel=prefetch><link href=static/js/chunk-403a311a.f12eedda.js rel=prefetch><link href=static/js/chunk-44a77a3a.01020c5f.js rel=prefetch><link href=static/js/chunk-459074ad.3cd5f056.js rel=prefetch><link href=static/js/chunk-597f14d4.4197c1e9.js rel=prefetch><link href=static/js/chunk-5e53d252.d73cb0db.js rel=prefetch><link href=static/js/chunk-60c6bbd2.5e87f6b8.js rel=prefetch><link href=static/js/chunk-6922c06f.2acaef6d.js rel=prefetch><link href=static/js/chunk-6a5cf5d0.c0c1b2f1.js rel=prefetch><link href=static/js/chunk-754117c9.eb7e5c19.js rel=prefetch><link href=static/js/chunk-76687867.c601ade2.js rel=prefetch><link href=static/js/chunk-8c65274e.01d43fd4.js rel=prefetch><link href=static/js/chunk-8dfd7bd4.2862c70f.js rel=prefetch><link href=static/js/chunk-b859e8b2.f1dc73f1.js rel=prefetch><link href=static/js/chunk-c8588832.6307008f.js rel=prefetch><link href=static/js/chunk-cc40743c.a646ffb2.js rel=prefetch><link href=static/css/app.945621b5.css rel=preload as=style><link href=static/css/chunk-vendors.b816f4a3.css rel=preload as=style><link href=static/js/app.5feaa099.js rel=preload as=script><link href=static/js/chunk-vendors.96b0ad95.js rel=preload as=script><link href=static/css/chunk-vendors.b816f4a3.css rel=stylesheet><link href=static/css/app.945621b5.css rel=stylesheet></head><body><noscript><strong>We're sorry but Parcels System doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=static/js/chunk-vendors.96b0ad95.js></script><script src=static/js/app.5feaa099.js></script></body></html>
+2020-07-03 17:51:13,266 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 17:51:13,267 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 17:51:13,267 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 17:51:13,268 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 17:51:13,268 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 17:51:13,268 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 17:51:13,269 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 17:51:13,269 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 17:51:13,269 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 09:50:39 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=dc70808b-f377-4736-9707-53b88cbf554c;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 17:51:13,270 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"808080277314125201731415c9080002",
+			"insideNumber":"FEISZ1720315790YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315790YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 17:51:13,279 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>808080277314125201731415c9080002 到全局变量池
+2020-07-03 17:51:13,280 - D:\PyProjects\test\common\interfance.py[line:75] - INFO: 断言失败,实际值:LOGIN_SUCCESS 不等于预期值:
+2020-07-03 17:51:13,664 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 17:51:13,664 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 17:51:13,665 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 17:51:13,665 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 17:51:13,666 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 17:51:13,666 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 17:51:13,666 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 17:51:13,667 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 17:51:13,667 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 09:50:39 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 09:50:39 GMT'}
+2020-07-03 17:51:13,667 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 17:55:34,540 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 17:55:34,540 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 17:55:34,541 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 17:55:34,541 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 17:55:34,542 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 17:55:34,542 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 17:55:34,542 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 17:55:34,542 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 17:55:34,543 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 09:55:00 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=5e811e10-2943-4f98-a2d2-7566e66c365d;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 17:55:34,543 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"808080277314125201731419c73c000b",
+			"insideNumber":"FEISZ1720315791YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315791YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 17:55:34,549 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>808080277314125201731419c73c000b 到全局变量池
+2020-07-03 17:55:34,551 - D:\PyProjects\test\common\interfance.py[line:75] - INFO: 断言失败,实际值:LOGIN_SUCCESS 不等于预期值:
+2020-07-03 17:55:34,852 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 17:55:34,852 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 17:55:34,853 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 17:55:34,853 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 17:55:34,853 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 17:55:34,854 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 17:55:34,854 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 17:55:34,854 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 17:55:34,855 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 09:55:00 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 09:55:00 GMT'}
+2020-07-03 17:55:34,856 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 17:59:11,451 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 17:59:11,451 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 17:59:11,452 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 17:59:11,452 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 17:59:11,452 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 17:59:11,453 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 17:59:11,453 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 17:59:11,453 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 17:59:11,454 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 09:58:37 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=c3586804-2227-4a8f-a227-db93c97c70f3;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 17:59:11,454 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"80808027731412520173141d16870014",
+			"insideNumber":"FEISZ1720315792YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315792YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 17:59:11,461 - D:\PyProjects\test\test_case\test_case.py[line:33] - INFO: 保存 order_id-d7a9d7da-bd13-11ea-aafd-309c23d0a562=>80808027731412520173141d16870014 到全局变量池
+2020-07-03 17:59:11,462 - D:\PyProjects\test\common\interfance.py[line:75] - INFO: 断言失败,实际值:LOGIN_SUCCESS 不等于预期值:
+2020-07-03 17:59:11,753 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 17:59:11,754 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 17:59:11,754 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 17:59:11,754 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 17:59:11,755 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 17:59:11,755 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 17:59:11,756 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 17:59:11,756 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 17:59:11,756 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 09:58:37 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 09:58:37 GMT'}
+2020-07-03 17:59:11,758 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 17:59:11,845 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>小货称重
+2020-07-03 17:59:11,845 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 17:59:11,845 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 17:59:11,846 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 17:59:11,847 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 17:59:11,847 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 17:59:11,847 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 17:59:11,848 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>405
+2020-07-03 17:59:11,848 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 09:58:37 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '269', 'Connection': 'keep-alive', 'Allow': 'PUT'}
+2020-07-03 17:59:11,849 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"timestamp":"2020-07-03 17:58:37",
+	"status":405,
+	"error":"Method Not Allowed",
+	"exception":"org.springframework.web.HttpRequestMethodNotSupportedException",
+	"message":"Request method 'POST' not supported",
+	"path":"/operation/v1/weighingInspection/updateOrder"
+}
+2020-07-03 18:05:01,159 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:05:01,160 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:05:01,160 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:05:01,161 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:05:01,161 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:05:01,162 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:05:01,162 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:05:01,162 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:05:01,163 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:04:27 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=9d20992d-fd1a-4209-89f3-ba383d71aa73;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:05:01,163 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"8080802773141252017314226c9e001d",
+			"insideNumber":"FEISZ1720315793YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315793YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:05:01,169 - D:\PyProjects\test\test_case\test_case.py[line:33] - INFO: 保存 order_id-a823981a-bd14-11ea-bd08-309c23d0a562=>8080802773141252017314226c9e001d 到全局变量池
+2020-07-03 18:05:01,170 - D:\PyProjects\test\common\interfance.py[line:75] - INFO: 断言失败,实际值:LOGIN_SUCCESS 不等于预期值:
+2020-07-03 18:05:01,489 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:05:01,489 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:05:01,490 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:05:01,490 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:05:01,490 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:05:01,491 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:05:01,491 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:05:01,491 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:05:01,492 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:04:27 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:04:27 GMT'}
+2020-07-03 18:05:01,492 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:05:01,552 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>小货称重
+2020-07-03 18:05:01,552 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:05:01,553 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 18:05:01,553 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:05:01,553 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:05:01,554 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:05:01,554 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:05:01,554 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>405
+2020-07-03 18:05:01,555 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:04:27 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '269', 'Connection': 'keep-alive', 'Allow': 'PUT'}
+2020-07-03 18:05:01,555 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"timestamp":"2020-07-03 18:04:27",
+	"status":405,
+	"error":"Method Not Allowed",
+	"exception":"org.springframework.web.HttpRequestMethodNotSupportedException",
+	"message":"Request method 'POST' not supported",
+	"path":"/operation/v1/weighingInspection/updateOrder"
+}
+2020-07-03 18:06:21,392 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:06:21,399 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:06:21,404 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:06:21,410 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:06:21,412 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:06:21,414 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:06:21,415 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:06:21,417 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:06:21,419 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:05:47 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=916c60e1-a6ef-4084-8353-10eec7dc4e6f;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:06:21,422 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"808080277314125201731423a5f40026",
+			"insideNumber":"FEISZ1720315794YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315794YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:06:55,398 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:06:55,399 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:06:55,399 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:06:55,400 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:06:55,401 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:06:55,401 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:06:55,402 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:06:55,403 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:06:55,403 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:06:21 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:06:21 GMT'}
+2020-07-03 18:06:55,404 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:12:19,322 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:12:19,322 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:12:19,322 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:12:19,322 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:12:19,322 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:12:19,322 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:12:19,323 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:12:19,323 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:12:19,323 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:11:45 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=dce5c6b1-0247-4995-81b3-922e83020173;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:12:19,323 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"8080802773141252017314291bfe0032",
+			"insideNumber":"FEISZ1720315795YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315795YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:12:19,323 - D:\PyProjects\test\common\interfance.py[line:72] - INFO: 断言成功,实际值:200 等于预期值:200.0
+2020-07-03 18:12:19,324 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>8080802773141252017314291bfe0032 到全局变量池
+2020-07-03 18:12:19,328 - D:\PyProjects\test\common\interfance.py[line:75] - INFO: 断言失败,实际值:LOGIN_SUCCESS 不等于预期值:
+2020-07-03 18:12:19,557 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:12:19,558 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:12:19,558 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:12:19,558 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:12:19,558 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:12:19,558 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:12:19,558 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:12:19,558 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:12:19,558 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:11:45 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:11:45 GMT'}
+2020-07-03 18:12:19,558 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:12:19,559 - D:\PyProjects\test\common\interfance.py[line:72] - INFO: 断言成功,实际值:200 等于预期值:200.0
+2020-07-03 18:14:27,852 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:14:27,852 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:14:27,852 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:14:27,852 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:14:27,852 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:14:27,853 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:14:27,853 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:14:27,853 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:14:27,853 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:13:53 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=41570d28-76e7-472f-9e5e-db1ac6d0bd58;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:14:27,853 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"80808027731412520173142b1262003b",
+			"insideNumber":"FEISZ1720315796YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315796YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:14:28,067 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:14:28,067 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:14:28,067 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:14:28,067 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:14:28,068 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:14:28,068 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:14:28,068 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:14:28,068 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:14:28,068 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:13:54 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:13:54 GMT'}
+2020-07-03 18:14:28,068 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:15:10,729 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:15:10,729 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:15:10,730 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:15:10,730 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:15:10,730 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:15:10,731 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:15:10,731 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:15:10,732 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:15:10,732 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:14:36 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=4c3d6a4c-2e4e-4d57-b5b2-23b587e4dc9e;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:15:10,732 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"80808027731412520173142bb9d80044",
+			"insideNumber":"FEISZ1720315797YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315797YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:15:10,738 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>80808027731412520173142bb9d80044 到全局变量池
+2020-07-03 18:15:10,739 - D:\PyProjects\test\common\interfance.py[line:75] - INFO: 断言失败,实际值:LOGIN_SUCCESS 不等于预期值:
+2020-07-03 18:15:11,000 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:15:11,000 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:15:11,000 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:15:11,001 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:15:11,001 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:15:11,001 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:15:11,002 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:15:11,002 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:15:11,002 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:14:37 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:14:36 GMT'}
+2020-07-03 18:15:11,003 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:15:42,834 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:15:42,835 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:15:42,835 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:15:42,835 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:15:42,835 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:15:42,835 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:15:42,836 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:15:42,836 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:15:42,836 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:15:08 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=0aca931f-cbf0-4080-be46-6fadf8eb370f;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:15:42,836 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"80808027731412520173142c3747004d",
+			"insideNumber":"FEISZ1720315798YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315798YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:15:42,839 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>80808027731412520173142c3747004d 到全局变量池
+2020-07-03 18:15:42,839 - D:\PyProjects\test\common\interfance.py[line:75] - INFO: 断言失败,实际值:LOGIN_SUCCESS 不等于预期值:
+2020-07-03 18:15:43,064 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:15:43,064 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:15:43,064 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:15:43,065 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:15:43,065 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:15:43,066 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:15:43,066 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:15:43,066 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:15:43,067 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:15:09 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:15:09 GMT'}
+2020-07-03 18:15:43,067 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:22:18,920 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:22:18,920 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:22:18,921 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:22:18,921 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:22:18,921 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:22:18,922 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:22:18,922 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:22:18,922 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:22:18,922 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:21:45 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=c10d3f6e-69b2-487f-8ea0-2f0b74422921;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:22:18,923 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"808080277314125201731432427c0057",
+			"insideNumber":"FEISZ1720315799YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315799YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:22:18,927 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>808080277314125201731432427c0057 到全局变量池
+2020-07-03 18:22:19,166 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:22:19,166 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:22:19,167 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:22:19,167 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:22:19,167 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:22:19,168 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:22:19,168 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:22:19,169 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:22:19,169 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:21:45 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:21:45 GMT'}
+2020-07-03 18:22:19,169 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:22:19,170 - D:\PyProjects\test\common\interfance.py[line:72] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 18:22:40,120 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:22:40,121 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:22:40,121 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:22:40,121 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:22:40,122 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:22:40,122 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:22:40,122 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:22:40,123 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:22:40,123 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:22:06 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=8f3aa889-b0b0-45fc-ace0-46f30cd90c80;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:22:40,123 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"808080277314125201731432953b0060",
+			"insideNumber":"FEISZ1720315800YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315800YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:22:40,128 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>808080277314125201731432953b0060 到全局变量池
+2020-07-03 18:22:40,335 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:22:40,336 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:22:40,336 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:22:40,336 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:22:40,337 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:22:40,337 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:22:40,337 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:22:40,338 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:22:40,338 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:22:06 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:22:06 GMT'}
+2020-07-03 18:22:40,338 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:22:40,339 - D:\PyProjects\test\common\interfance.py[line:72] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 18:22:49,725 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:22:49,726 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:22:49,726 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:22:49,727 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:22:49,727 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:22:49,728 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:22:49,728 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:22:49,728 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:22:49,729 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:22:15 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=78c43656-3df4-4eb4-80c2-7aeaf8d53d1b;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:22:49,729 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"808080277314125201731432bae10069",
+			"insideNumber":"FEISZ1720315801YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315801YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:22:49,736 - D:\PyProjects\test\test_case\test_case.py[line:33] - INFO: 保存 order_id-252504f8-bd17-11ea-8af0-309c23d0a562=>808080277314125201731432bae10069 到全局变量池
+2020-07-03 18:22:49,950 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:22:49,950 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:22:49,951 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:22:49,951 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:22:49,951 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:22:49,952 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:22:49,952 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:22:49,952 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:22:49,953 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:22:16 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:22:15 GMT'}
+2020-07-03 18:22:49,953 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:22:49,954 - D:\PyProjects\test\common\interfance.py[line:72] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 18:22:50,018 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>小货称重
+2020-07-03 18:22:50,019 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:22:50,019 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 18:22:50,019 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:22:50,020 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:22:50,020 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:22:50,020 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:22:50,021 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>405
+2020-07-03 18:22:50,021 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:22:16 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '269', 'Connection': 'keep-alive', 'Allow': 'PUT'}
+2020-07-03 18:22:50,021 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"timestamp":"2020-07-03 18:22:16",
+	"status":405,
+	"error":"Method Not Allowed",
+	"exception":"org.springframework.web.HttpRequestMethodNotSupportedException",
+	"message":"Request method 'POST' not supported",
+	"path":"/operation/v1/weighingInspection/updateOrder"
+}
+2020-07-03 18:23:03,351 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:23:03,352 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:23:03,352 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:23:03,352 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:23:03,352 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:23:03,352 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:23:03,352 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:23:03,353 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:23:03,353 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:22:29 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=783b7dca-16da-4449-aca8-fe7bb408895d;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:23:03,353 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"808080277314125201731432f0180072",
+			"insideNumber":"FEISZ1720315802YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315802YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:23:03,355 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>808080277314125201731432f0180072 到全局变量池
+2020-07-03 18:23:03,540 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:23:03,540 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:23:03,541 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:23:03,541 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:23:03,541 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:23:03,542 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:23:03,542 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:23:03,542 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:23:03,543 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:22:29 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:22:29 GMT'}
+2020-07-03 18:23:03,543 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:23:03,544 - D:\PyProjects\test\common\interfance.py[line:72] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 18:25:46,705 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:25:46,706 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:25:46,706 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:25:46,707 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:25:46,707 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:25:46,707 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:25:46,708 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:25:46,708 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:25:46,708 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:25:12 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=da4243c5-85c8-459d-b770-110cf2b914a0;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:25:46,709 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"8080802773141252017314356e25007b",
+			"insideNumber":"FEISZ1720315803YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315803YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:25:46,713 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>8080802773141252017314356e25007b 到全局变量池
+2020-07-03 18:25:46,940 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:25:46,940 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:25:46,941 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:25:46,941 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:25:46,941 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:25:46,942 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:25:46,942 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:25:46,942 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:25:46,943 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:25:13 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:25:12 GMT'}
+2020-07-03 18:25:46,943 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:25:46,944 - D:\PyProjects\test\common\interfance.py[line:72] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 18:27:45,332 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:27:45,333 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:27:45,334 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:27:45,336 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:27:45,336 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:27:45,337 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:27:45,338 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:27:45,338 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:27:45,339 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:27:11 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=d55c1b42-e850-49b7-a9e6-827611a14892;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:27:45,340 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"8080802773141252017314373d890084",
+			"insideNumber":"FEISZ1720315804YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315804YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:28:31,341 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>8080802773141252017314373d890084 到全局变量池
+2020-07-03 18:28:31,788 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:28:31,791 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:28:31,794 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:28:31,798 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:28:31,802 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:28:31,805 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:28:31,808 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:28:31,812 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:28:31,817 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:27:57 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:27:57 GMT'}
+2020-07-03 18:28:31,819 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:28:47,929 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:28:47,929 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:28:47,930 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:28:47,930 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:28:47,930 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:28:47,930 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:28:47,931 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:28:47,931 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:28:47,931 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:28:14 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=a9ee406d-849f-43be-979a-1a323aa127fd;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:28:47,931 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"808080277314125201731438320e008d",
+			"insideNumber":"FEISZ1720315805YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315805YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:28:47,933 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>808080277314125201731438320e008d 到全局变量池
+2020-07-03 18:28:48,123 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:28:48,124 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:28:48,124 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:28:48,124 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:28:48,125 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:28:48,125 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:28:48,125 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:28:48,125 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:28:48,126 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:28:14 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:28:14 GMT'}
+2020-07-03 18:28:48,126 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:28:48,127 - D:\PyProjects\test\common\interfance.py[line:72] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 18:28:48,178 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>小货称重
+2020-07-03 18:28:48,178 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:28:48,179 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 18:28:48,183 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:28:48,183 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:28:48,184 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:28:48,184 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:28:48,184 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>405
+2020-07-03 18:28:48,185 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:28:14 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '269', 'Connection': 'keep-alive', 'Allow': 'PUT'}
+2020-07-03 18:28:48,185 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"timestamp":"2020-07-03 18:28:14",
+	"status":405,
+	"error":"Method Not Allowed",
+	"exception":"org.springframework.web.HttpRequestMethodNotSupportedException",
+	"message":"Request method 'POST' not supported",
+	"path":"/operation/v1/weighingInspection/updateOrder"
+}
+2020-07-03 18:28:54,300 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:28:54,300 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:28:54,300 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:28:54,300 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:28:54,301 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:28:54,301 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:28:54,301 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:28:54,301 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:28:54,301 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:28:20 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=02d9373e-b330-4413-a74c-7ffd92a0a27b;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:28:54,301 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"8080802773141252017314384af90096",
+			"insideNumber":"FEISZ1720315806YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315806YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:28:54,304 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>8080802773141252017314384af90096 到全局变量池
+2020-07-03 18:28:54,485 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:28:54,486 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:28:54,486 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:28:54,486 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:28:54,487 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:28:54,487 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:28:54,487 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:28:54,487 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:28:54,488 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:28:20 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:28:20 GMT'}
+2020-07-03 18:28:54,488 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:28:54,489 - D:\PyProjects\test\common\interfance.py[line:72] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 18:28:54,540 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>小货称重
+2020-07-03 18:28:54,540 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:28:54,540 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 18:28:54,541 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:28:54,541 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:28:54,541 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:28:54,542 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:28:54,542 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>405
+2020-07-03 18:28:54,542 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:28:20 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '269', 'Connection': 'keep-alive', 'Allow': 'PUT'}
+2020-07-03 18:28:54,543 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"timestamp":"2020-07-03 18:28:20",
+	"status":405,
+	"error":"Method Not Allowed",
+	"exception":"org.springframework.web.HttpRequestMethodNotSupportedException",
+	"message":"Request method 'POST' not supported",
+	"path":"/operation/v1/weighingInspection/updateOrder"
+}
+2020-07-03 18:31:53,273 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:31:53,273 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:31:53,273 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:31:53,274 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:31:53,274 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:31:53,274 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:31:53,274 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:31:53,274 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:31:53,274 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:31:19 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=22f61823-aa66-4c0c-894e-46bf4ddf85d6;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:31:53,275 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"80808027731412520173143b0619009f",
+			"insideNumber":"FEISZ1720315807YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315807YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:31:53,277 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>80808027731412520173143b0619009f 到全局变量池
+2020-07-03 18:31:53,470 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:31:53,470 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:31:53,471 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:31:53,472 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:31:53,472 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:31:53,473 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:31:53,473 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:31:53,473 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:31:53,474 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:31:19 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:31:19 GMT'}
+2020-07-03 18:31:53,474 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:31:53,475 - D:\PyProjects\test\common\interfance.py[line:72] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 18:31:53,515 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>小货称重
+2020-07-03 18:31:53,516 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:31:53,516 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 18:31:53,517 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:31:53,517 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:31:53,517 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:31:53,518 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:31:53,518 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>405
+2020-07-03 18:31:53,518 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:31:19 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '269', 'Connection': 'keep-alive', 'Allow': 'PUT'}
+2020-07-03 18:31:53,519 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"timestamp":"2020-07-03 18:31:19",
+	"status":405,
+	"error":"Method Not Allowed",
+	"exception":"org.springframework.web.HttpRequestMethodNotSupportedException",
+	"message":"Request method 'POST' not supported",
+	"path":"/operation/v1/weighingInspection/updateOrder"
+}
+2020-07-03 18:32:45,291 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:32:45,292 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:32:45,292 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:32:45,293 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:32:45,293 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:32:45,293 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:32:45,294 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:32:45,294 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:32:45,295 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:32:11 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=fdac477f-7fc2-4898-b9bf-cdcd6fc6bd02;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:32:45,295 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"80808027731412520173143bd13900a8",
+			"insideNumber":"FEISZ1720315808YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315808YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:32:45,299 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>80808027731412520173143bd13900a8 到全局变量池
+2020-07-03 18:32:45,490 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:32:45,491 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:32:45,491 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:32:45,491 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:32:45,492 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:32:45,492 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:32:45,492 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:32:45,493 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:32:45,493 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:32:11 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:32:11 GMT'}
+2020-07-03 18:32:45,493 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:32:45,494 - D:\PyProjects\test\common\interfance.py[line:72] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 18:32:45,539 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>小货称重
+2020-07-03 18:32:45,540 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:32:45,540 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 18:32:45,541 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:32:45,541 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:32:45,541 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:32:45,542 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:32:45,542 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>405
+2020-07-03 18:32:45,542 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:32:11 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '269', 'Connection': 'keep-alive', 'Allow': 'PUT'}
+2020-07-03 18:32:45,542 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"timestamp":"2020-07-03 18:32:11",
+	"status":405,
+	"error":"Method Not Allowed",
+	"exception":"org.springframework.web.HttpRequestMethodNotSupportedException",
+	"message":"Request method 'POST' not supported",
+	"path":"/operation/v1/weighingInspection/updateOrder"
+}
+2020-07-03 18:33:23,982 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:33:23,983 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:33:23,984 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:33:23,984 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:33:23,984 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:33:23,985 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:33:23,985 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:33:23,985 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:33:23,986 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:32:50 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=86236416-43be-49f1-a64b-15bfbe0bbaf3;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:33:23,986 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"80808027731412520173143c686f00b1",
+			"insideNumber":"FEISZ1720315809YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315809YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:33:23,991 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>80808027731412520173143c686f00b1 到全局变量池
+2020-07-03 18:33:24,186 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:33:24,187 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:33:24,187 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:33:24,188 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:33:24,188 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:33:24,188 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:33:24,188 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:33:24,189 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:33:24,189 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:32:50 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:32:50 GMT'}
+2020-07-03 18:33:24,190 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:33:24,191 - D:\PyProjects\test\common\interfance.py[line:72] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 18:34:11,959 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:34:11,960 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:34:11,960 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:34:11,961 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:34:11,962 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:34:11,962 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:34:11,963 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:34:11,963 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:34:11,963 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:33:38 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=091cb0b7-c592-4436-a444-857a2f04715e;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:34:11,964 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"80808027731412520173143d23d200ba",
+			"insideNumber":"FEISZ1720315810YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315810YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:34:11,968 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>80808027731412520173143d23d200ba 到全局变量池
+2020-07-03 18:34:12,150 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:34:12,151 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:34:12,151 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:34:12,151 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:34:12,152 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:34:12,152 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:34:12,152 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:34:12,153 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:34:12,153 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:33:38 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:33:38 GMT'}
+2020-07-03 18:34:12,153 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:34:12,154 - D:\PyProjects\test\common\interfance.py[line:72] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 18:34:12,224 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>小货称重
+2020-07-03 18:34:12,225 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>put
+2020-07-03 18:34:12,225 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 18:34:12,225 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:34:12,226 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:34:12,226 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:34:12,226 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:34:12,227 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>400
+2020-07-03 18:34:12,227 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:33:38 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '116', 'Connection': 'keep-alive'}
+2020-07-03 18:34:12,227 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"code":"SERVER_INNER_ERROR",
+	"flag":false,
+	"msg":"服务器内部错误",
+	"obj":null,
+	"rows":[],
+	"total":0
+}
+2020-07-03 18:35:59,119 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:35:59,120 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:35:59,121 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:35:59,121 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:35:59,121 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:35:59,122 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:35:59,122 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:35:59,122 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:35:59,123 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:35:25 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=febf752c-6268-4c32-b3f0-a9a45fdd6109;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:35:59,123 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"80808027731412520173143ec66b00c3",
+			"insideNumber":"FEISZ1720315811YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315811YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:35:59,127 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>80808027731412520173143ec66b00c3 到全局变量池
+2020-07-03 18:35:59,335 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:35:59,336 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:35:59,336 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:35:59,336 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:35:59,337 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:35:59,337 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:35:59,337 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:35:59,338 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:35:59,338 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:35:25 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:35:25 GMT'}
+2020-07-03 18:35:59,338 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:35:59,339 - D:\PyProjects\test\common\interfance.py[line:72] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 18:36:51,092 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>小货称重
+2020-07-03 18:36:51,093 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>put
+2020-07-03 18:36:51,093 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 18:36:51,093 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:36:51,094 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:36:51,094 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:36:51,095 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:36:51,095 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>400
+2020-07-03 18:36:51,095 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:36:17 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '116', 'Connection': 'keep-alive'}
+2020-07-03 18:36:51,096 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"code":"SERVER_INNER_ERROR",
+	"flag":false,
+	"msg":"服务器内部错误",
+	"obj":null,
+	"rows":[],
+	"total":0
+}
+2020-07-03 18:39:54,016 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 18:39:54,016 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:39:54,017 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:39:54,017 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:39:54,017 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:39:54,018 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:39:54,018 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:39:54,018 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:39:54,019 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:39:20 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=666b9180-9efe-4cdc-901e-ffff1a3f39bc;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:39:54,019 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"8080802773141252017314425bf700d5",
+			"insideNumber":"FEISZ1720315812YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315812YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:39:54,023 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>8080802773141252017314425bf700d5 到全局变量池
+2020-07-03 18:39:54,211 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 18:39:54,212 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 18:39:54,212 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:39:54,213 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:39:54,213 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:39:54,213 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:39:54,214 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:39:54,214 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:39:54,214 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:39:20 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:39:20 GMT'}
+2020-07-03 18:39:54,215 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:39:54,216 - D:\PyProjects\test\common\interfance.py[line:72] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 18:40:45,672 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>小货称重
+2020-07-03 18:40:45,673 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>put
+2020-07-03 18:40:45,673 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 18:40:45,674 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:40:45,674 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:40:45,674 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:40:45,674 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:40:45,675 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>400
+2020-07-03 18:40:45,675 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:40:11 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '116', 'Connection': 'keep-alive'}
+2020-07-03 18:40:45,676 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"code":"SERVER_INNER_ERROR",
+	"flag":false,
+	"msg":"服务器内部错误",
+	"obj":null,
+	"rows":[],
+	"total":0
+}
+2020-07-03 18:44:22,426 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>小货称重
+2020-07-03 18:44:22,427 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>put
+2020-07-03 18:44:22,427 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 18:44:22,427 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:44:22,427 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求参数====>""
+2020-07-03 18:44:22,427 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求体====>null
+2020-07-03 18:44:22,428 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: Cookies====>""
+2020-07-03 18:44:22,428 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 接口响应状态码====>400
+2020-07-03 18:44:22,428 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:43:48 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '116', 'Connection': 'keep-alive'}
+2020-07-03 18:44:22,428 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应体为====>{
+	"code":"SERVER_INNER_ERROR",
+	"flag":false,
+	"msg":"服务器内部错误",
+	"obj":null,
+	"rows":[],
+	"total":0
+}
+2020-07-03 18:46:10,812 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>客户下单
+2020-07-03 18:46:10,813 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>post
+2020-07-03 18:46:10,813 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:46:10,813 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:46:10,813 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求参数====>""
+2020-07-03 18:46:10,814 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求体====>null
+2020-07-03 18:46:10,814 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: Cookies====>""
+2020-07-03 18:46:10,814 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 接口响应状态码====>200
+2020-07-03 18:46:10,814 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:45:36 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=153573de-d6c8-4d05-8a92-40d38089e59d;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:46:10,814 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"8080802773141252017314481bcd00f0",
+			"insideNumber":"FEISZ1720315814YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315814YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:46:10,816 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>8080802773141252017314481bcd00f0 到全局变量池
+2020-07-03 18:46:10,991 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>操作登录
+2020-07-03 18:46:10,992 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>post
+2020-07-03 18:46:10,992 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:46:10,993 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:46:10,993 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求参数====>""
+2020-07-03 18:46:10,994 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求体====>null
+2020-07-03 18:46:10,994 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: Cookies====>""
+2020-07-03 18:46:10,994 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 接口响应状态码====>200
+2020-07-03 18:46:10,995 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:45:37 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:45:36 GMT'}
+2020-07-03 18:46:10,995 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:46:10,996 - D:\PyProjects\test\common\interfance.py[line:71] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 18:48:55,773 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>客户下单
+2020-07-03 18:48:55,774 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>post
+2020-07-03 18:48:55,774 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:48:55,774 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:48:55,775 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求参数====>""
+2020-07-03 18:48:55,775 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求体====>null
+2020-07-03 18:48:55,775 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: Cookies====>""
+2020-07-03 18:48:55,776 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 接口响应状态码====>200
+2020-07-03 18:48:55,776 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:48:21 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=290f2992-1694-4032-b855-3b7870ad814c;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:48:55,776 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"80808027731412520173144aa0030114",
+			"insideNumber":"FEISZ1720315817YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315817YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:48:55,780 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>80808027731412520173144aa0030114 到全局变量池
+2020-07-03 18:48:55,953 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>操作登录
+2020-07-03 18:48:55,954 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>post
+2020-07-03 18:48:55,954 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:48:55,954 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:48:55,955 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求参数====>""
+2020-07-03 18:48:55,955 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求体====>null
+2020-07-03 18:48:55,955 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: Cookies====>""
+2020-07-03 18:48:55,956 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 接口响应状态码====>200
+2020-07-03 18:48:55,956 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:48:22 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:48:21 GMT'}
+2020-07-03 18:48:55,956 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:48:55,957 - D:\PyProjects\test\common\interfance.py[line:71] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 18:49:47,309 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>小货称重
+2020-07-03 18:49:47,310 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>put
+2020-07-03 18:49:47,310 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 18:49:47,311 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:49:47,311 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求参数====>""
+2020-07-03 18:49:47,311 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求体====>null
+2020-07-03 18:49:47,312 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: Cookies====>""
+2020-07-03 18:49:47,312 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 接口响应状态码====>400
+2020-07-03 18:49:47,312 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:49:13 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '116', 'Connection': 'keep-alive'}
+2020-07-03 18:49:47,313 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应体为====>{
+	"code":"SERVER_INNER_ERROR",
+	"flag":false,
+	"msg":"服务器内部错误",
+	"obj":null,
+	"rows":[],
+	"total":0
+}
+2020-07-03 18:52:00,625 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>客户下单
+2020-07-03 18:52:00,626 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>post
+2020-07-03 18:52:00,626 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:52:00,626 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:52:00,820 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>操作登录
+2020-07-03 18:52:00,820 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>post
+2020-07-03 18:52:00,821 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:52:00,821 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:52:00,889 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>小货称重
+2020-07-03 18:52:00,890 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>put
+2020-07-03 18:52:00,890 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 18:52:00,890 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:52:00,891 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求参数====>""
+2020-07-03 18:52:00,891 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求体====>null
+2020-07-03 18:52:00,892 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: Cookies====>""
+2020-07-03 18:52:00,892 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 接口响应状态码====>400
+2020-07-03 18:52:00,892 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:51:26 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '116', 'Connection': 'keep-alive'}
+2020-07-03 18:52:00,893 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应体为====>{
+	"code":"SERVER_INNER_ERROR",
+	"flag":false,
+	"msg":"服务器内部错误",
+	"obj":null,
+	"rows":[],
+	"total":0
+}
+2020-07-03 18:54:01,605 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>客户下单
+2020-07-03 18:54:01,606 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>post
+2020-07-03 18:54:01,606 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:54:01,607 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:54:01,801 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>操作登录
+2020-07-03 18:54:01,802 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>post
+2020-07-03 18:54:01,802 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:54:01,803 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:54:01,840 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>小货称重
+2020-07-03 18:54:01,841 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>put
+2020-07-03 18:54:01,841 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 18:54:01,841 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:54:58,358 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>客户下单
+2020-07-03 18:54:58,359 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>post
+2020-07-03 18:54:58,359 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:54:58,359 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:54:58,583 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>操作登录
+2020-07-03 18:54:58,584 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>post
+2020-07-03 18:54:58,584 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:54:58,585 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:54:58,622 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>小货称重
+2020-07-03 18:54:58,623 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>put
+2020-07-03 18:54:58,624 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 18:54:58,624 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:54:58,625 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求参数====>""
+2020-07-03 18:54:58,625 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求体====>null
+2020-07-03 18:54:58,626 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: Cookies====>""
+2020-07-03 18:54:58,626 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 接口响应状态码====>400
+2020-07-03 18:54:58,626 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:54:24 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '116', 'Connection': 'keep-alive'}
+2020-07-03 18:54:58,626 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应体为====>{
+	"code":"SERVER_INNER_ERROR",
+	"flag":false,
+	"msg":"服务器内部错误",
+	"obj":null,
+	"rows":[],
+	"total":0
+}
+2020-07-03 18:57:02,792 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>客户下单
+2020-07-03 18:57:02,792 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>post
+2020-07-03 18:57:02,792 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:57:02,793 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:57:02,793 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求参数====>""
+2020-07-03 18:57:02,793 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求体====>null
+2020-07-03 18:57:02,793 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: Cookies====>""
+2020-07-03 18:57:02,793 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 接口响应状态码====>200
+2020-07-03 18:57:02,794 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:56:28 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=01acdbf9-a562-4660-a9b5-fcaaa1c1907c;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:57:02,794 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"8080802773141252017314520e960141",
+			"insideNumber":"FEISZ1720315821YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315821YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:57:02,796 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>8080802773141252017314520e960141 到全局变量池
+2020-07-03 18:57:03,001 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>操作登录
+2020-07-03 18:57:03,001 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>post
+2020-07-03 18:57:03,001 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:57:03,002 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:57:03,002 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求参数====>""
+2020-07-03 18:57:03,002 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求体====>null
+2020-07-03 18:57:03,003 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: Cookies====>""
+2020-07-03 18:57:03,003 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 接口响应状态码====>200
+2020-07-03 18:57:03,003 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:56:29 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:56:28 GMT'}
+2020-07-03 18:57:03,004 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:57:03,005 - D:\PyProjects\test\common\interfance.py[line:71] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 18:57:54,430 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>小货称重
+2020-07-03 18:57:54,431 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>put
+2020-07-03 18:57:54,431 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 18:57:54,432 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:57:54,432 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求参数====>""
+2020-07-03 18:57:54,432 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求体====>null
+2020-07-03 18:57:54,433 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: Cookies====>""
+2020-07-03 18:57:54,433 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 接口响应状态码====>400
+2020-07-03 18:57:54,433 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:57:20 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '116', 'Connection': 'keep-alive'}
+2020-07-03 18:57:54,434 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应体为====>{
+	"code":"SERVER_INNER_ERROR",
+	"flag":false,
+	"msg":"服务器内部错误",
+	"obj":null,
+	"rows":[],
+	"total":0
+}
+2020-07-03 18:59:12,294 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>客户下单
+2020-07-03 18:59:12,295 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>post
+2020-07-03 18:59:12,295 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 18:59:12,295 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>None
+2020-07-03 18:59:12,295 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:59:12,296 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:59:12,296 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:59:12,296 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:59:12,296 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:59:12,296 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:58:38 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=eb43e3e6-4954-4295-8bf2-319e63cf3d37;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 18:59:12,297 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"808080277314125201731454087a0153",
+			"insideNumber":"FEISZ1720315822YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315822YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 18:59:12,299 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>808080277314125201731454087a0153 到全局变量池
+2020-07-03 18:59:12,503 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>操作登录
+2020-07-03 18:59:12,503 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>post
+2020-07-03 18:59:12,504 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 18:59:12,504 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>None
+2020-07-03 18:59:12,504 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 18:59:12,504 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 18:59:12,504 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 18:59:12,505 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 18:59:12,505 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 18:59:12,505 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:58:38 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 10:58:38 GMT'}
+2020-07-03 18:59:12,505 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 18:59:12,506 - D:\PyProjects\test\common\interfance.py[line:71] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 19:00:03,905 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>小货称重
+2020-07-03 19:00:03,906 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>put
+2020-07-03 19:00:03,906 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 19:00:03,906 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>b'{"weighType": "ONE_BOX", "actualWeight": 5, "orderId":"808080277314125201731454087a0153"}'
+2020-07-03 19:00:03,907 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:00:03,907 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 19:00:03,907 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 19:00:03,908 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 19:00:03,908 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>400
+2020-07-03 19:00:03,908 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 10:59:29 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '116', 'Connection': 'keep-alive'}
+2020-07-03 19:00:03,909 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"code":"SERVER_INNER_ERROR",
+	"flag":false,
+	"msg":"服务器内部错误",
+	"obj":null,
+	"rows":[],
+	"total":0
+}
+2020-07-03 19:02:33,544 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>客户下单
+2020-07-03 19:02:33,544 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>post
+2020-07-03 19:02:33,544 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 19:02:33,545 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求报文====>b'{\n    "apiName": "F1910704",\n    "apiToken": "5a975fc2fe3e15efb54651198c027b11",\n    "apiOrders":[\n    {\n        "productName": "",\n        "productCode":"EUSW-SZ",\n        "destinationNo": "GB",\n        "takeAwayType": "ESHIP",\n        "referenceNo": "",\n       "orderFromType": "API",\n        "goods": [\n            {\n                "nameEn": "apple",\n                "name": "\xe8\x8b\xb9\xe6\x9e\x9c",\n                "quantity": 1,\n                "reportPrice": 2,\n                "boxWeight": 5,\n                "boxLength": 1,\n                "boxWidth": 1,\n                "boxHeight": 1,\n                "boxCount": 1\n            }\n            \n        ],\n        "deliveryAddress":{\n            "consignee":"JESPER DAUGBJERG",\n            "province":"Colorado",\n            "city":"Denver",\n            "address":"12313213PACKSTATIO 15313",\n            "postcode":"TA21 8QT",\n            "cellphoneNo":"+1 (437) 982-",\n            "houseNo":"15313"\n            \n        },\n        "senderAddress":{\n            "sender":"\xe5\xb0\x8f\xe4\xb8\x89",\n            "province":"\xe6\xb9\x96\xe5\x8c\x97\xe7\x9c\x81",\n            "city":"\xe6\xad\xa6\xe6\xb1\x89\xe5\xb8\x82",\n            "address":"\xe5\x85\x89\xe8\xb0\xb7\xe5\xa4\xa7\xe9\x81\x93\xe6\x80\xbb\xe9\x83\xa8\xe5\x9b\xbd\xe9\x99\x85",\n            "postcode":"535300",\n            "cellphoneNo":"+1 (437) 982-6730",\n            "countryCode":"CN"\n        }\n    }\n    ]\n}'
+2020-07-03 19:02:33,545 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:02:33,545 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 19:02:33,545 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 19:02:33,546 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 19:02:33,546 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 19:02:33,546 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:01:59 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=a78e44ae-b7f2-4995-92f4-97e0b32d7a0b;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 19:02:33,546 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"8080802773141252017314571a930165",
+			"insideNumber":"FEISZ1720315823YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315823YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 19:02:33,549 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>8080802773141252017314571a930165 到全局变量池
+2020-07-03 19:02:33,758 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>操作登录
+2020-07-03 19:02:33,758 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>post
+2020-07-03 19:02:33,759 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 19:02:33,759 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求报文====>b'{"username":"jing","password":"parcels123"}'
+2020-07-03 19:02:33,759 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:02:33,760 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求参数====>""
+2020-07-03 19:02:33,760 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求体====>null
+2020-07-03 19:02:33,760 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: Cookies====>""
+2020-07-03 19:02:33,761 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 接口响应状态码====>200
+2020-07-03 19:02:33,761 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:01:59 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 11:01:59 GMT'}
+2020-07-03 19:02:33,761 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 19:02:33,762 - D:\PyProjects\test\common\interfance.py[line:71] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 19:03:25,758 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>客户下单
+2020-07-03 19:03:25,759 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>post
+2020-07-03 19:03:25,759 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 19:03:25,948 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>操作登录
+2020-07-03 19:03:25,949 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>post
+2020-07-03 19:03:25,949 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 19:03:25,989 - D:\PyProjects\test\common\interfance.py[line:107] - INFO: 请求描述====>小货称重
+2020-07-03 19:03:25,989 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求方式====>put
+2020-07-03 19:03:25,989 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 19:04:19,568 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>客户下单
+2020-07-03 19:04:19,569 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 19:04:19,569 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 19:04:19,793 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>操作登录
+2020-07-03 19:04:19,793 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>post
+2020-07-03 19:04:19,794 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 19:04:19,831 - D:\PyProjects\test\common\interfance.py[line:108] - INFO: 请求描述====>小货称重
+2020-07-03 19:04:19,832 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求方式====>put
+2020-07-03 19:04:19,832 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 19:04:45,031 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>客户下单
+2020-07-03 19:04:45,032 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:04:45,033 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 19:04:45,241 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>操作登录
+2020-07-03 19:04:45,242 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:04:45,242 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 19:04:45,302 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>小货称重
+2020-07-03 19:04:45,303 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>put
+2020-07-03 19:04:45,303 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 19:06:02,749 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>客户下单
+2020-07-03 19:06:02,749 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:06:02,750 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 19:06:02,972 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>操作登录
+2020-07-03 19:06:02,973 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:06:02,973 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 19:06:03,014 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>小货称重
+2020-07-03 19:06:03,015 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>put
+2020-07-03 19:06:03,015 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 19:07:31,261 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>客户下单
+2020-07-03 19:07:31,261 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:07:31,262 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 19:07:31,491 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>操作登录
+2020-07-03 19:07:31,492 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:07:31,492 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 19:07:31,678 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>小货称重
+2020-07-03 19:07:31,679 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>put
+2020-07-03 19:07:31,679 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 19:08:23,075 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>客户下单
+2020-07-03 19:08:23,076 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:08:23,076 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 19:08:23,253 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>操作登录
+2020-07-03 19:08:23,253 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:08:23,253 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 19:08:23,281 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>小货称重
+2020-07-03 19:08:23,281 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>put
+2020-07-03 19:08:23,281 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 19:10:28,415 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>客户下单
+2020-07-03 19:10:28,415 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:10:28,416 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 19:10:28,416 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>b'{\n    "apiName": "F1910704",\n    "apiToken": "5a975fc2fe3e15efb54651198c027b11",\n    "apiOrders":[\n    {\n        "productName": "",\n        "productCode":"EUSW-SZ",\n        "destinationNo": "GB",\n        "takeAwayType": "ESHIP",\n        "referenceNo": "",\n       "orderFromType": "API",\n        "goods": [\n            {\n                "nameEn": "apple",\n                "name": "\xe8\x8b\xb9\xe6\x9e\x9c",\n                "quantity": 1,\n                "reportPrice": 2,\n                "boxWeight": 5,\n                "boxLength": 1,\n                "boxWidth": 1,\n                "boxHeight": 1,\n                "boxCount": 1\n            }\n            \n        ],\n        "deliveryAddress":{\n            "consignee":"JESPER DAUGBJERG",\n            "province":"Colorado",\n            "city":"Denver",\n            "address":"12313213PACKSTATIO 15313",\n            "postcode":"TA21 8QT",\n            "cellphoneNo":"+1 (437) 982-",\n            "houseNo":"15313"\n            \n        },\n        "senderAddress":{\n            "sender":"\xe5\xb0\x8f\xe4\xb8\x89",\n            "province":"\xe6\xb9\x96\xe5\x8c\x97\xe7\x9c\x81",\n            "city":"\xe6\xad\xa6\xe6\xb1\x89\xe5\xb8\x82",\n            "address":"\xe5\x85\x89\xe8\xb0\xb7\xe5\xa4\xa7\xe9\x81\x93\xe6\x80\xbb\xe9\x83\xa8\xe5\x9b\xbd\xe9\x99\x85",\n            "postcode":"535300",\n            "cellphoneNo":"+1 (437) 982-6730",\n            "countryCode":"CN"\n        }\n    }\n    ]\n}'
+2020-07-03 19:10:28,417 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:10:28,417 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:10:28,418 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:10:28,418 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:10:28,418 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>200
+2020-07-03 19:10:28,419 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:09:54 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=35d6785f-6b94-4109-8275-b27b12e85b15;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 19:10:28,421 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"80808027731412520173145e597201ad",
+			"insideNumber":"FEISZ1720315830YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315830YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 19:10:28,425 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>80808027731412520173145e597201ad 到全局变量池
+2020-07-03 19:10:28,647 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>操作登录
+2020-07-03 19:10:28,647 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:10:28,648 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 19:10:28,648 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>b'{"username":"jing","password":"parcels123"}'
+2020-07-03 19:10:28,648 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:10:28,649 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:10:28,649 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:10:28,649 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:10:28,650 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>200
+2020-07-03 19:10:28,650 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:09:54 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 11:09:54 GMT'}
+2020-07-03 19:10:28,650 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 19:10:28,651 - D:\PyProjects\test\common\interfance.py[line:73] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 19:11:20,341 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>客户下单
+2020-07-03 19:11:20,342 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:11:20,342 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 19:11:20,342 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>b'{\n    "apiName": "F1910704",\n    "apiToken": "5a975fc2fe3e15efb54651198c027b11",\n    "apiOrders":[\n    {\n        "productName": "",\n        "productCode":"EUSW-SZ",\n        "destinationNo": "GB",\n        "takeAwayType": "ESHIP",\n        "referenceNo": "",\n       "orderFromType": "API",\n        "goods": [\n            {\n                "nameEn": "apple",\n                "name": "\xe8\x8b\xb9\xe6\x9e\x9c",\n                "quantity": 1,\n                "reportPrice": 2,\n                "boxWeight": 5,\n                "boxLength": 1,\n                "boxWidth": 1,\n                "boxHeight": 1,\n                "boxCount": 1\n            }\n            \n        ],\n        "deliveryAddress":{\n            "consignee":"JESPER DAUGBJERG",\n            "province":"Colorado",\n            "city":"Denver",\n            "address":"12313213PACKSTATIO 15313",\n            "postcode":"TA21 8QT",\n            "cellphoneNo":"+1 (437) 982-",\n            "houseNo":"15313"\n            \n        },\n        "senderAddress":{\n            "sender":"\xe5\xb0\x8f\xe4\xb8\x89",\n            "province":"\xe6\xb9\x96\xe5\x8c\x97\xe7\x9c\x81",\n            "city":"\xe6\xad\xa6\xe6\xb1\x89\xe5\xb8\x82",\n            "address":"\xe5\x85\x89\xe8\xb0\xb7\xe5\xa4\xa7\xe9\x81\x93\xe6\x80\xbb\xe9\x83\xa8\xe5\x9b\xbd\xe9\x99\x85",\n            "postcode":"535300",\n            "cellphoneNo":"+1 (437) 982-6730",\n            "countryCode":"CN"\n        }\n    }\n    ]\n}'
+2020-07-03 19:11:20,343 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:11:20,343 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:11:20,344 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:11:20,344 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:11:20,344 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>200
+2020-07-03 19:11:20,344 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:10:46 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=b4e4fc09-1c0c-4da4-8016-07d211de8054;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 19:11:20,345 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"80808027731412520173145f08ed01bf",
+			"insideNumber":"FEISZ1720315831YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315831YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 19:11:20,349 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>80808027731412520173145f08ed01bf 到全局变量池
+2020-07-03 19:11:20,546 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>操作登录
+2020-07-03 19:11:20,546 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:11:20,546 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 19:11:20,547 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>b'{"username":"jing","password":"parcels123"}'
+2020-07-03 19:11:20,547 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:11:20,548 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:11:20,548 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:11:20,548 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:11:20,549 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>200
+2020-07-03 19:11:20,549 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:10:46 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 11:10:46 GMT'}
+2020-07-03 19:11:20,549 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 19:11:20,550 - D:\PyProjects\test\common\interfance.py[line:73] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 19:12:11,890 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>小货称重
+2020-07-03 19:12:11,891 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>put
+2020-07-03 19:12:11,891 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 19:12:11,891 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>b'{"weighType": "ONE_BOX", "actualWeight": 5, "orderId":"80808027731412520173145f08ed01bf"}'
+2020-07-03 19:12:11,891 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:12:11,892 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:12:11,892 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:12:11,892 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:12:11,893 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>400
+2020-07-03 19:12:11,893 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:11:37 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '116', 'Connection': 'keep-alive'}
+2020-07-03 19:12:11,893 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{
+	"code":"SERVER_INNER_ERROR",
+	"flag":false,
+	"msg":"服务器内部错误",
+	"obj":null,
+	"rows":[],
+	"total":0
+}
+2020-07-03 19:16:11,352 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>客户下单
+2020-07-03 19:16:11,352 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:16:11,352 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 19:16:11,352 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>b'{\n    "apiName": "F1910704",\n    "apiToken": "5a975fc2fe3e15efb54651198c027b11",\n    "apiOrders":[\n    {\n        "productName": "",\n        "productCode":"EUSW-SZ",\n        "destinationNo": "GB",\n        "takeAwayType": "ESHIP",\n        "referenceNo": "",\n       "orderFromType": "API",\n        "goods": [\n            {\n                "nameEn": "apple",\n                "name": "\xe8\x8b\xb9\xe6\x9e\x9c",\n                "quantity": 1,\n                "reportPrice": 2,\n                "boxWeight": 5,\n                "boxLength": 1,\n                "boxWidth": 1,\n                "boxHeight": 1,\n                "boxCount": 1\n            }\n            \n        ],\n        "deliveryAddress":{\n            "consignee":"JESPER DAUGBJERG",\n            "province":"Colorado",\n            "city":"Denver",\n            "address":"12313213PACKSTATIO 15313",\n            "postcode":"TA21 8QT",\n            "cellphoneNo":"+1 (437) 982-",\n            "houseNo":"15313"\n            \n        },\n        "senderAddress":{\n            "sender":"\xe5\xb0\x8f\xe4\xb8\x89",\n            "province":"\xe6\xb9\x96\xe5\x8c\x97\xe7\x9c\x81",\n            "city":"\xe6\xad\xa6\xe6\xb1\x89\xe5\xb8\x82",\n            "address":"\xe5\x85\x89\xe8\xb0\xb7\xe5\xa4\xa7\xe9\x81\x93\xe6\x80\xbb\xe9\x83\xa8\xe5\x9b\xbd\xe9\x99\x85",\n            "postcode":"535300",\n            "cellphoneNo":"+1 (437) 982-6730",\n            "countryCode":"CN"\n        }\n    }\n    ]\n}'
+2020-07-03 19:16:11,353 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:16:11,353 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:16:11,353 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:16:11,353 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:16:11,353 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>200
+2020-07-03 19:16:11,354 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:15:37 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=c4dd895e-cdf7-428f-bc9f-7c6be219cabb;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 19:16:11,354 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"808080277314125201731463952601d1",
+			"insideNumber":"FEISZ1720315832YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315832YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 19:16:11,357 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>808080277314125201731463952601d1 到全局变量池
+2020-07-03 19:16:11,535 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>操作登录
+2020-07-03 19:16:11,536 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:16:11,536 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 19:16:11,536 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>b'{"username":"jing","password":"parcels123"}'
+2020-07-03 19:16:11,537 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:16:11,537 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:16:11,537 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:16:11,538 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:16:11,538 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>200
+2020-07-03 19:16:11,538 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:15:37 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 11:15:37 GMT'}
+2020-07-03 19:16:11,539 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 19:16:11,540 - D:\PyProjects\test\common\interfance.py[line:73] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 19:17:02,852 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>小货称重
+2020-07-03 19:17:02,853 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>put
+2020-07-03 19:17:02,853 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 19:17:02,854 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>b'{"weighType": "ONE_BOX", "actualWeight": 5, "orderId":"808080277314125201731463952601d1"}'
+2020-07-03 19:17:02,854 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:17:02,854 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:17:02,855 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:17:02,855 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:17:02,856 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>400
+2020-07-03 19:17:02,856 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:16:28 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '116', 'Connection': 'keep-alive'}
+2020-07-03 19:17:02,856 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{
+	"code":"SERVER_INNER_ERROR",
+	"flag":false,
+	"msg":"服务器内部错误",
+	"obj":null,
+	"rows":[],
+	"total":0
+}
+2020-07-03 19:19:40,780 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>操作登录
+2020-07-03 19:19:40,780 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:19:40,780 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 19:19:40,780 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>{"username":"jing","password":"parcels123"}
+2020-07-03 19:19:40,780 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:19:40,781 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:19:40,781 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:19:40,781 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:19:40,781 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>200
+2020-07-03 19:19:40,781 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:19:06 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 11:19:06 GMT, JSESSIONID=0adec311-90e2-4106-8d7f-e97e3c157532;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 19:19:40,781 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 19:19:40,783 - D:\PyProjects\test\common\interfance.py[line:73] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 19:19:40,814 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>小货称重
+2020-07-03 19:19:40,815 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>put
+2020-07-03 19:19:40,815 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 19:19:40,815 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>b'{"weighType": "ONE_BOX", "actualWeight": 5, "orderId":"None"}'
+2020-07-03 19:19:40,815 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:19:40,815 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:19:40,815 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:19:40,816 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:19:40,816 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>400
+2020-07-03 19:19:40,816 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:19:06 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '116', 'Connection': 'keep-alive'}
+2020-07-03 19:19:40,816 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{
+	"code":"SERVER_INNER_ERROR",
+	"flag":false,
+	"msg":"服务器内部错误",
+	"obj":null,
+	"rows":[],
+	"total":0
+}
+2020-07-03 19:22:22,383 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>客户下单
+2020-07-03 19:22:22,384 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:22:22,384 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 19:22:22,385 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>"{\n    \"apiName\": \"F1910704\",\n    \"apiToken\": \"5a975fc2fe3e15efb54651198c027b11\",\n    \"apiOrders\":[\n    {\n        \"productName\": \"\",\n        \"productCode\":\"EUSW-SZ\",\n        \"destinationNo\": \"GB\",\n        \"takeAwayType\": \"ESHIP\",\n        \"referenceNo\": \"\",\n       \"orderFromType\": \"API\",\n        \"goods\": [\n            {\n                \"nameEn\": \"apple\",\n                \"name\": \"\u82f9\u679c\",\n                \"quantity\": 1,\n                \"reportPrice\": 2,\n                \"boxWeight\": 5,\n                \"boxLength\": 1,\n                \"boxWidth\": 1,\n                \"boxHeight\": 1,\n                \"boxCount\": 1\n            }\n            \n        ],\n        \"deliveryAddress\":{\n            \"consignee\":\"JESPER DAUGBJERG\",\n            \"province\":\"Colorado\",\n            \"city\":\"Denver\",\n            \"address\":\"12313213PACKSTATIO 15313\",\n            \"postcode\":\"TA21 8QT\",\n            \"cellphoneNo\":\"+1 (437) 982-\",\n            \"houseNo\":\"15313\"\n            \n        },\n        \"senderAddress\":{\n            \"sender\":\"\u5c0f\u4e09\",\n            \"province\":\"\u6e56\u5317\u7701\",\n            \"city\":\"\u6b66\u6c49\u5e02\",\n            \"address\":\"\u5149\u8c37\u5927\u9053\u603b\u90e8\u56fd\u9645\",\n            \"postcode\":\"535300\",\n            \"cellphoneNo\":\"+1 (437) 982-6730\",\n            \"countryCode\":\"CN\"\n        }\n    }\n    ]\n}"
+2020-07-03 19:22:22,385 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:22:22,385 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:22:22,386 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:22:22,386 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:22:22,386 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>200
+2020-07-03 19:22:22,387 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:21:48 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=b51f42c9-f842-49c4-a7be-4315dd482ef3;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 19:22:22,387 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"8080802773141252017314693e6a01e3",
+			"insideNumber":"FEISZ1720315833YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315833YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 19:22:22,391 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>8080802773141252017314693e6a01e3 到全局变量池
+2020-07-03 19:22:22,568 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>操作登录
+2020-07-03 19:22:22,568 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:22:22,569 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 19:22:22,569 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>"{\"username\":\"jing\",\"password\":\"parcels123\"}"
+2020-07-03 19:22:22,570 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:22:22,570 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:22:22,570 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:22:22,571 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:22:22,571 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>200
+2020-07-03 19:22:22,571 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:21:48 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 11:21:48 GMT'}
+2020-07-03 19:22:22,572 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 19:22:22,573 - D:\PyProjects\test\common\interfance.py[line:73] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 19:23:13,903 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>小货称重
+2020-07-03 19:23:13,903 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>put
+2020-07-03 19:23:13,903 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 19:23:13,904 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>"{\"weighType\": \"ONE_BOX\", \"actualWeight\": 5, \"orderId\":\"8080802773141252017314693e6a01e3\"}"
+2020-07-03 19:23:13,904 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:23:13,905 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:23:13,905 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:23:13,905 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:23:13,906 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>400
+2020-07-03 19:23:13,906 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:22:39 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '116', 'Connection': 'keep-alive'}
+2020-07-03 19:23:13,906 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{
+	"code":"SERVER_INNER_ERROR",
+	"flag":false,
+	"msg":"服务器内部错误",
+	"obj":null,
+	"rows":[],
+	"total":0
+}
+2020-07-03 19:24:10,614 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>客户下单
+2020-07-03 19:24:10,615 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:24:10,615 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 19:24:10,616 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>{'apiName': 'F1910704', 'apiToken': '5a975fc2fe3e15efb54651198c027b11', 'apiOrders': [{'productName': '', 'productCode': 'EUSW-SZ', 'destinationNo': 'GB', 'takeAwayType': 'ESHIP', 'referenceNo': '', 'orderFromType': 'API', 'goods': [{'nameEn': 'apple', 'name': '苹果', 'quantity': 1, 'reportPrice': 2, 'boxWeight': 5, 'boxLength': 1, 'boxWidth': 1, 'boxHeight': 1, 'boxCount': 1}], 'deliveryAddress': {'consignee': 'JESPER DAUGBJERG', 'province': 'Colorado', 'city': 'Denver', 'address': '12313213PACKSTATIO 15313', 'postcode': 'TA21 8QT', 'cellphoneNo': '+1 (437) 982-', 'houseNo': '15313'}, 'senderAddress': {'sender': '小三', 'province': '湖北省', 'city': '武汉市', 'address': '光谷大道总部国际', 'postcode': '535300', 'cellphoneNo': '+1 (437) 982-6730', 'countryCode': 'CN'}}]}
+2020-07-03 19:24:10,616 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:24:10,617 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:24:10,617 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:24:10,617 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:24:10,618 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>200
+2020-07-03 19:24:10,618 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:23:36 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=f89d96d9-a21c-4442-b257-de5c8828c25f;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 19:24:10,618 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"80808027731412520173146ae53101f5",
+			"insideNumber":"FEISZ1720315834YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315834YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 19:24:10,622 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>80808027731412520173146ae53101f5 到全局变量池
+2020-07-03 19:24:10,789 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>操作登录
+2020-07-03 19:24:10,790 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:24:10,790 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 19:24:10,790 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>{'username': 'jing', 'password': 'parcels123'}
+2020-07-03 19:24:10,791 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:24:10,791 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:24:10,791 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:24:10,792 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:24:10,792 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>200
+2020-07-03 19:24:10,792 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:23:36 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 11:23:36 GMT'}
+2020-07-03 19:24:10,792 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 19:24:10,794 - D:\PyProjects\test\common\interfance.py[line:73] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 19:25:02,173 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>小货称重
+2020-07-03 19:25:02,173 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>put
+2020-07-03 19:25:02,173 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 19:25:02,174 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>{'weighType': 'ONE_BOX', 'actualWeight': 5, 'orderId': '80808027731412520173146ae53101f5'}
+2020-07-03 19:25:02,174 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:25:02,174 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:25:02,174 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:25:02,174 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:25:02,174 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>400
+2020-07-03 19:25:02,175 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:24:28 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '116', 'Connection': 'keep-alive'}
+2020-07-03 19:25:02,175 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{
+	"code":"SERVER_INNER_ERROR",
+	"flag":false,
+	"msg":"服务器内部错误",
+	"obj":null,
+	"rows":[],
+	"total":0
+}
+2020-07-03 19:25:22,442 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>客户下单
+2020-07-03 19:25:22,442 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:25:22,442 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 19:25:22,442 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>{"apiName": "F1910704", "apiToken": "5a975fc2fe3e15efb54651198c027b11", "apiOrders": [{"productName": "", "productCode": "EUSW-SZ", "destinationNo": "GB", "takeAwayType": "ESHIP", "referenceNo": "", "orderFromType": "API", "goods": [{"nameEn": "apple", "name": "\u82f9\u679c", "quantity": 1, "reportPrice": 2, "boxWeight": 5, "boxLength": 1, "boxWidth": 1, "boxHeight": 1, "boxCount": 1}], "deliveryAddress": {"consignee": "JESPER DAUGBJERG", "province": "Colorado", "city": "Denver", "address": "12313213PACKSTATIO 15313", "postcode": "TA21 8QT", "cellphoneNo": "+1 (437) 982-", "houseNo": "15313"}, "senderAddress": {"sender": "\u5c0f\u4e09", "province": "\u6e56\u5317\u7701", "city": "\u6b66\u6c49\u5e02", "address": "\u5149\u8c37\u5927\u9053\u603b\u90e8\u56fd\u9645", "postcode": "535300", "cellphoneNo": "+1 (437) 982-6730", "countryCode": "CN"}}]}
+2020-07-03 19:25:22,443 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:25:22,443 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:25:22,443 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:25:22,443 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:25:22,443 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>200
+2020-07-03 19:25:22,444 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:24:48 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=b6721502-8343-4700-92af-4ee89a007fdf;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 19:25:22,444 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"80808027731412520173146bfdcf0207",
+			"insideNumber":"FEISZ1720315835YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315835YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 19:25:22,446 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>80808027731412520173146bfdcf0207 到全局变量池
+2020-07-03 19:25:22,615 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>操作登录
+2020-07-03 19:25:22,615 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:25:22,616 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 19:25:22,616 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>{"username": "jing", "password": "parcels123"}
+2020-07-03 19:25:22,616 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:25:22,617 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:25:22,617 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:25:22,617 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:25:22,618 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>200
+2020-07-03 19:25:22,618 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:24:48 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 11:24:48 GMT'}
+2020-07-03 19:25:22,618 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 19:25:22,619 - D:\PyProjects\test\common\interfance.py[line:73] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 19:26:13,445 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>客户下单
+2020-07-03 19:26:13,446 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:26:13,446 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 19:26:13,670 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>操作登录
+2020-07-03 19:26:13,671 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:26:13,671 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 19:26:13,708 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>小货称重
+2020-07-03 19:26:13,708 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>put
+2020-07-03 19:26:13,709 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 19:26:41,899 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>客户下单
+2020-07-03 19:26:41,900 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:26:41,900 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 19:26:42,091 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>操作登录
+2020-07-03 19:26:42,092 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:26:42,092 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 19:26:42,135 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>小货称重
+2020-07-03 19:26:42,136 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>put
+2020-07-03 19:26:42,136 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 19:27:15,952 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>客户下单
+2020-07-03 19:27:15,954 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:27:15,955 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://api.parcels.tech/eship-api/v1/orders
+2020-07-03 19:27:15,955 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>{'apiName': 'F1910704', 'apiToken': '5a975fc2fe3e15efb54651198c027b11', 'apiOrders': [{'productName': '', 'productCode': 'EUSW-SZ', 'destinationNo': 'GB', 'takeAwayType': 'ESHIP', 'referenceNo': '', 'orderFromType': 'API', 'goods': [{'nameEn': 'apple', 'name': '苹果', 'quantity': 1, 'reportPrice': 2, 'boxWeight': 5, 'boxLength': 1, 'boxWidth': 1, 'boxHeight': 1, 'boxCount': 1}], 'deliveryAddress': {'consignee': 'JESPER DAUGBJERG', 'province': 'Colorado', 'city': 'Denver', 'address': '12313213PACKSTATIO 15313', 'postcode': 'TA21 8QT', 'cellphoneNo': '+1 (437) 982-', 'houseNo': '15313'}, 'senderAddress': {'sender': '小三', 'province': '湖北省', 'city': '武汉市', 'address': '光谷大道总部国际', 'postcode': '535300', 'cellphoneNo': '+1 (437) 982-6730', 'countryCode': 'CN'}}]}
+2020-07-03 19:27:15,956 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:27:15,956 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:27:15,957 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:27:15,957 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:27:15,957 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>200
+2020-07-03 19:27:15,958 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:26:42 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '553', 'Connection': 'keep-alive', 'Set-Cookie': 'JSESSIONID=9fe512d2-e91d-4be4-a9fb-13cb89d335b0;domain=parcels.tech;path=/;HttpOnly'}
+2020-07-03 19:27:15,958 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{
+	"fail":0,
+	"failOrders":[],
+	"flag":true,
+	"msg":"",
+	"success":1,
+	"successOrders":[
+		{
+			"deliveryCompany":"不固定派送商",
+			"deliveryNumber":"",
+			"id":"80808027731412520173146db9310234",
+			"insideNumber":"FEISZ1720315839YQ",
+			"pdfError":null,
+			"pdfPath":"http://customer.parcels.tech/label-internal/v1/label/internal/order/FEISZ1720315839YQ/pdf",
+			"productId":"2c93ece0678e129b0167a55c42440125",
+			"referenceNo":"",
+			"sheetApi":true,
+			"supplyItemId":"2c93ece064df04190164df6590500010",
+			"update":false
+		}
+	],
+	"total":1
+}
+2020-07-03 19:27:15,962 - D:\PyProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 order_id=>80808027731412520173146db9310234 到全局变量池
+2020-07-03 19:27:16,138 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>操作登录
+2020-07-03 19:27:16,139 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>post
+2020-07-03 19:27:16,139 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://sales.parcels.tech/author/v1/subject/login
+2020-07-03 19:27:16,140 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>{'username': 'jing', 'password': 'parcels123'}
+2020-07-03 19:27:16,140 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:27:16,141 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:27:16,141 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:27:16,141 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:27:16,141 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>200
+2020-07-03 19:27:16,142 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:26:42 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Thu, 02-Jul-2020 11:26:42 GMT'}
+2020-07-03 19:27:16,142 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-07-03 19:27:16,143 - D:\PyProjects\test\common\interfance.py[line:73] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-07-03 19:28:07,494 - D:\PyProjects\test\common\interfance.py[line:109] - INFO: 请求描述====>小货称重
+2020-07-03 19:28:07,494 - D:\PyProjects\test\common\interfance.py[line:110] - INFO: 请求方式====>put
+2020-07-03 19:28:07,495 - D:\PyProjects\test\common\interfance.py[line:111] - INFO: 请求地址====>http://operation.parcels.tech/operation/v1/weighingInspection/updateOrder
+2020-07-03 19:28:07,495 - D:\PyProjects\test\common\interfance.py[line:112] - INFO: 请求报文====>{'weighType': 'ONE_BOX', 'actualWeight': 5, 'orderId': '80808027731412520173146db9310234'}
+2020-07-03 19:28:07,495 - D:\PyProjects\test\common\interfance.py[line:113] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-07-03 19:28:07,496 - D:\PyProjects\test\common\interfance.py[line:114] - INFO: 请求参数====>""
+2020-07-03 19:28:07,496 - D:\PyProjects\test\common\interfance.py[line:115] - INFO: 请求体====>null
+2020-07-03 19:28:07,496 - D:\PyProjects\test\common\interfance.py[line:116] - INFO: Cookies====>""
+2020-07-03 19:28:07,496 - D:\PyProjects\test\common\interfance.py[line:117] - INFO: 接口响应状态码====>400
+2020-07-03 19:28:07,497 - D:\PyProjects\test\common\interfance.py[line:118] - INFO: 接口响应头为====>{'Server': 'nginx/1.12.2', 'Date': 'Fri, 03 Jul 2020 11:27:33 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '116', 'Connection': 'keep-alive'}
+2020-07-03 19:28:07,497 - D:\PyProjects\test\common\interfance.py[line:119] - INFO: 接口响应体为====>{
+	"code":"SERVER_INNER_ERROR",
+	"flag":false,
+	"msg":"服务器内部错误",
+	"obj":null,
+	"rows":[],
+	"total":0
+}

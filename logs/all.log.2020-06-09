@@ -1,0 +1,1079 @@
+2020-06-09 13:48:23,224 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>客户登录接口
+2020-06-09 13:48:23,232 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 13:48:23,232 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/v1/subject/login
+2020-06-09 13:48:23,233 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:48:23,233 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:48:23,233 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:48:23,234 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:48:23,234 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 13:48:23,235 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:48:22 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Mon, 08-Jun-2020 05:48:22 GMT, JSESSIONID=1eeffa03-1423-4071-a757-123c66713b2b;domain=17feia.com;path=/;HttpOnly'}
+2020-06-09 13:48:23,235 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-06-09 13:48:23,241 - D:\PycharmProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 msg=>LOGIN_SUCCESS 到全局变量池
+2020-06-09 13:48:23,242 - D:\PycharmProjects\test\common\interfance.py[line:54] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-06-09 13:48:23,358 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>判断是否登录
+2020-06-09 13:48:23,358 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 13:48:23,359 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/subject/isLogin
+2020-06-09 13:48:23,359 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:48:23,360 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:48:23,364 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:48:23,364 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:48:23,365 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 13:48:23,365 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:48:22 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '150', 'Connection': 'keep-alive'}
+2020-06-09 13:48:23,365 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 13:48:22",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/subject/isLogin"
+}
+2020-06-09 13:48:23,512 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取公司信息
+2020-06-09 13:48:23,513 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 13:48:23,513 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/user/getCompanyInfo
+2020-06-09 13:48:23,514 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:48:23,514 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:48:23,514 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:48:23,515 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:48:23,515 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 13:48:23,515 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:48:22 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '149', 'Connection': 'keep-alive'}
+2020-06-09 13:48:23,516 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 13:48:22",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/author/user/getCompanyInfo"
+}
+2020-06-09 13:48:23,618 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取用户信息
+2020-06-09 13:48:23,618 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 13:48:23,619 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/subject/getLoginCustomerInfo
+2020-06-09 13:48:23,619 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:48:23,620 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:48:23,620 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:48:23,621 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:48:23,621 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 13:48:23,622 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:48:22 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '163', 'Connection': 'keep-alive'}
+2020-06-09 13:48:23,622 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 13:48:22",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/subject/getLoginCustomerInfo"
+}
+2020-06-09 13:48:23,723 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取菜单栏
+2020-06-09 13:48:23,724 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 13:48:23,724 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/menu/findMenusByUser
+2020-06-09 13:48:23,725 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:48:23,725 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:48:23,725 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:48:23,726 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:48:23,726 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 13:48:23,726 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:48:22 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '155', 'Connection': 'keep-alive'}
+2020-06-09 13:48:23,727 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 13:48:22",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/menu/findMenusByUser"
+}
+2020-06-09 13:48:24,010 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>登出
+2020-06-09 13:48:24,010 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 13:48:24,011 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/logout
+2020-06-09 13:48:24,012 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:48:24,012 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:48:24,012 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:48:24,013 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:48:24,013 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 13:48:24,014 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:48:23 GMT', 'Content-Type': 'text/html', 'Content-Length': '5159', 'Last-Modified': 'Mon, 08 Jun 2020 09:03:14 GMT', 'Connection': 'keep-alive', 'ETag': '"5eddfed2-1427"', 'Accept-Ranges': 'bytes'}
+2020-06-09 13:48:24,014 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====><!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=./favicon.ico type=image/x-icon><title>customer.eship.com</title><script src=./static/assets/js/gt.js></script><script src=./static/assets/js/browser.js></script><link href=http://at.alicdn.com/t/font_1530113_vbnkki1qyn.css rel=stylesheet type=text/css><link href=static/css/chunk-00011340.d2587d2d.css rel=prefetch><link href=static/css/chunk-006dc2e4.062f1d98.css rel=prefetch><link href=static/css/chunk-0477d616.304a389a.css rel=prefetch><link href=static/css/chunk-0af74ad3.face4b9b.css rel=prefetch><link href=static/css/chunk-0bed8262.824a4ef8.css rel=prefetch><link href=static/css/chunk-1018cb42.cb24f1c4.css rel=prefetch><link href=static/css/chunk-111199ab.5167911d.css rel=prefetch><link href=static/css/chunk-11c41ca4.36906228.css rel=prefetch><link href=static/css/chunk-12c72f68.50aa4c00.css rel=prefetch><link href=static/css/chunk-13e95aef.f7070104.css rel=prefetch><link href=static/css/chunk-1c984023.635fbcaa.css rel=prefetch><link href=static/css/chunk-21e35c50.ead47afb.css rel=prefetch><link href=static/css/chunk-2a0c0d69.a79fd2fb.css rel=prefetch><link href=static/css/chunk-2b8781c5.462d5ce3.css rel=prefetch><link href=static/css/chunk-30c42808.3f0cf9c2.css rel=prefetch><link href=static/css/chunk-37b7374a.5f00c13c.css rel=prefetch><link href=static/css/chunk-403a311a.4e237659.css rel=prefetch><link href=static/css/chunk-44a77a3a.24fedd6d.css rel=prefetch><link href=static/css/chunk-459074ad.b346c9de.css rel=prefetch><link href=static/css/chunk-4b9b06e0.2aa8b684.css rel=prefetch><link href=static/css/chunk-5e53d252.cd5c5553.css rel=prefetch><link href=static/css/chunk-60c6bbd2.bacb786d.css rel=prefetch><link href=static/css/chunk-6922c06f.267fc8ed.css rel=prefetch><link href=static/css/chunk-6a5cf5d0.4675d4d7.css rel=prefetch><link href=static/css/chunk-754117c9.c60a95ec.css rel=prefetch><link href=static/css/chunk-76687867.f7c166b1.css rel=prefetch><link href=static/css/chunk-8c65274e.8fb96920.css rel=prefetch><link href=static/css/chunk-b0e4167e.dbdee651.css rel=prefetch><link href=static/css/chunk-b859e8b2.f6014242.css rel=prefetch><link href=static/css/chunk-c8588832.f0d0b75f.css rel=prefetch><link href=static/css/chunk-cc40743c.55d4bf34.css rel=prefetch><link href=static/js/chunk-00011340.28213351.js rel=prefetch><link href=static/js/chunk-006dc2e4.8bee2b47.js rel=prefetch><link href=static/js/chunk-0477d616.7f9ec7a0.js rel=prefetch><link href=static/js/chunk-0af74ad3.231f935e.js rel=prefetch><link href=static/js/chunk-0bed8262.c8eb98e1.js rel=prefetch><link href=static/js/chunk-1018cb42.e510faec.js rel=prefetch><link href=static/js/chunk-111199ab.65038635.js rel=prefetch><link href=static/js/chunk-11c41ca4.dc5fa9ec.js rel=prefetch><link href=static/js/chunk-12c72f68.b1cd921c.js rel=prefetch><link href=static/js/chunk-13e95aef.4750ea96.js rel=prefetch><link href=static/js/chunk-1c984023.8c674f3e.js rel=prefetch><link href=static/js/chunk-21e35c50.9b624024.js rel=prefetch><link href=static/js/chunk-2a0c0d69.76ef0952.js rel=prefetch><link href=static/js/chunk-2b8781c5.662e2b19.js rel=prefetch><link href=static/js/chunk-2d0b2168.3784a800.js rel=prefetch><link href=static/js/chunk-2d0cf3a0.2d53d8c4.js rel=prefetch><link href=static/js/chunk-2d229d78.49f52f60.js rel=prefetch><link href=static/js/chunk-30c42808.c2b29c51.js rel=prefetch><link href=static/js/chunk-37b7374a.31cc15fa.js rel=prefetch><link href=static/js/chunk-403a311a.3d59307c.js rel=prefetch><link href=static/js/chunk-44a77a3a.fecbdd0f.js rel=prefetch><link href=static/js/chunk-459074ad.1161642a.js rel=prefetch><link href=static/js/chunk-4b9b06e0.0e1ea5a6.js rel=prefetch><link href=static/js/chunk-5e53d252.9f1e7002.js rel=prefetch><link href=static/js/chunk-60c6bbd2.f9ca353e.js rel=prefetch><link href=static/js/chunk-6922c06f.b0690551.js rel=prefetch><link href=static/js/chunk-6a5cf5d0.34a5ef09.js rel=prefetch><link href=static/js/chunk-754117c9.c04eacf6.js rel=prefetch><link href=static/js/chunk-76687867.eaf36140.js rel=prefetch><link href=static/js/chunk-8c65274e.f8ac2730.js rel=prefetch><link href=static/js/chunk-b0e4167e.0b5f37fd.js rel=prefetch><link href=static/js/chunk-b859e8b2.b3e4c64d.js rel=prefetch><link href=static/js/chunk-c8588832.389550f9.js rel=prefetch><link href=static/js/chunk-cc40743c.3e27de50.js rel=prefetch><link href=static/css/app.44e8eb62.css rel=preload as=style><link href=static/css/chunk-vendors.a0b7a3b6.css rel=preload as=style><link href=static/js/app.8b3d09fa.js rel=preload as=script><link href=static/js/chunk-vendors.f0e2473c.js rel=preload as=script><link href=static/css/chunk-vendors.a0b7a3b6.css rel=stylesheet><link href=static/css/app.44e8eb62.css rel=stylesheet></head><body><noscript><strong>We're sorry but customer.eship.com doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=static/js/chunk-vendors.f0e2473c.js></script><script src=static/js/app.8b3d09fa.js></script></body></html>
+2020-06-09 13:51:15,311 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>客户登录接口
+2020-06-09 13:51:15,312 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 13:51:15,313 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/v1/subject/login
+2020-06-09 13:51:15,315 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:51:15,316 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:51:15,317 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:51:15,318 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:51:15,318 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 13:51:15,319 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:51:14 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Mon, 08-Jun-2020 05:51:14 GMT, JSESSIONID=dd59110e-1329-4077-87a4-5f344e1de223;domain=17feia.com;path=/;HttpOnly'}
+2020-06-09 13:51:15,320 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-06-09 13:51:15,334 - D:\PycharmProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 msg=>LOGIN_SUCCESS 到全局变量池
+2020-06-09 13:51:15,335 - D:\PycharmProjects\test\common\interfance.py[line:54] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-06-09 13:51:15,423 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>判断是否登录
+2020-06-09 13:51:15,424 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 13:51:15,425 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/public/v1/subject/isLogin
+2020-06-09 13:51:15,426 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:51:15,426 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:51:15,427 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:51:15,428 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:51:15,428 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 13:51:15,430 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:51:14 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '50', 'Connection': 'keep-alive'}
+2020-06-09 13:51:15,431 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"flag":true,
+	"msg":"## success",
+	"obj":null
+}
+2020-06-09 13:51:15,514 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取公司信息
+2020-06-09 13:51:15,514 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 13:51:15,515 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/user/getCompanyInfo
+2020-06-09 13:51:15,516 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:51:15,516 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:51:15,517 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:51:15,518 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:51:15,518 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 13:51:15,519 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:51:14 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '149', 'Connection': 'keep-alive'}
+2020-06-09 13:51:15,520 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 13:51:14",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/author/user/getCompanyInfo"
+}
+2020-06-09 13:51:15,628 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取用户信息
+2020-06-09 13:51:15,628 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 13:51:15,632 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/subject/getLoginCustomerInfo
+2020-06-09 13:51:15,633 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:51:15,633 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:51:15,634 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:51:15,635 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:51:15,635 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 13:51:15,636 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:51:14 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '163', 'Connection': 'keep-alive'}
+2020-06-09 13:51:15,637 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 13:51:14",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/subject/getLoginCustomerInfo"
+}
+2020-06-09 13:51:15,772 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取菜单栏
+2020-06-09 13:51:15,773 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 13:51:15,773 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/menu/findMenusByUser
+2020-06-09 13:51:15,774 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:51:15,774 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:51:15,775 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:51:15,776 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:51:15,776 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 13:51:15,777 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:51:15 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '155', 'Connection': 'keep-alive'}
+2020-06-09 13:51:15,777 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 13:51:15",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/menu/findMenusByUser"
+}
+2020-06-09 13:51:16,144 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>登出
+2020-06-09 13:51:16,144 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 13:51:16,145 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/logout
+2020-06-09 13:51:16,146 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:51:16,146 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:51:16,147 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:51:16,147 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:51:16,148 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 13:51:16,148 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:51:15 GMT', 'Content-Type': 'text/html', 'Content-Length': '5159', 'Last-Modified': 'Mon, 08 Jun 2020 09:03:14 GMT', 'Connection': 'keep-alive', 'ETag': '"5eddfed2-1427"', 'Accept-Ranges': 'bytes'}
+2020-06-09 13:51:16,149 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====><!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=./favicon.ico type=image/x-icon><title>customer.eship.com</title><script src=./static/assets/js/gt.js></script><script src=./static/assets/js/browser.js></script><link href=http://at.alicdn.com/t/font_1530113_vbnkki1qyn.css rel=stylesheet type=text/css><link href=static/css/chunk-00011340.d2587d2d.css rel=prefetch><link href=static/css/chunk-006dc2e4.062f1d98.css rel=prefetch><link href=static/css/chunk-0477d616.304a389a.css rel=prefetch><link href=static/css/chunk-0af74ad3.face4b9b.css rel=prefetch><link href=static/css/chunk-0bed8262.824a4ef8.css rel=prefetch><link href=static/css/chunk-1018cb42.cb24f1c4.css rel=prefetch><link href=static/css/chunk-111199ab.5167911d.css rel=prefetch><link href=static/css/chunk-11c41ca4.36906228.css rel=prefetch><link href=static/css/chunk-12c72f68.50aa4c00.css rel=prefetch><link href=static/css/chunk-13e95aef.f7070104.css rel=prefetch><link href=static/css/chunk-1c984023.635fbcaa.css rel=prefetch><link href=static/css/chunk-21e35c50.ead47afb.css rel=prefetch><link href=static/css/chunk-2a0c0d69.a79fd2fb.css rel=prefetch><link href=static/css/chunk-2b8781c5.462d5ce3.css rel=prefetch><link href=static/css/chunk-30c42808.3f0cf9c2.css rel=prefetch><link href=static/css/chunk-37b7374a.5f00c13c.css rel=prefetch><link href=static/css/chunk-403a311a.4e237659.css rel=prefetch><link href=static/css/chunk-44a77a3a.24fedd6d.css rel=prefetch><link href=static/css/chunk-459074ad.b346c9de.css rel=prefetch><link href=static/css/chunk-4b9b06e0.2aa8b684.css rel=prefetch><link href=static/css/chunk-5e53d252.cd5c5553.css rel=prefetch><link href=static/css/chunk-60c6bbd2.bacb786d.css rel=prefetch><link href=static/css/chunk-6922c06f.267fc8ed.css rel=prefetch><link href=static/css/chunk-6a5cf5d0.4675d4d7.css rel=prefetch><link href=static/css/chunk-754117c9.c60a95ec.css rel=prefetch><link href=static/css/chunk-76687867.f7c166b1.css rel=prefetch><link href=static/css/chunk-8c65274e.8fb96920.css rel=prefetch><link href=static/css/chunk-b0e4167e.dbdee651.css rel=prefetch><link href=static/css/chunk-b859e8b2.f6014242.css rel=prefetch><link href=static/css/chunk-c8588832.f0d0b75f.css rel=prefetch><link href=static/css/chunk-cc40743c.55d4bf34.css rel=prefetch><link href=static/js/chunk-00011340.28213351.js rel=prefetch><link href=static/js/chunk-006dc2e4.8bee2b47.js rel=prefetch><link href=static/js/chunk-0477d616.7f9ec7a0.js rel=prefetch><link href=static/js/chunk-0af74ad3.231f935e.js rel=prefetch><link href=static/js/chunk-0bed8262.c8eb98e1.js rel=prefetch><link href=static/js/chunk-1018cb42.e510faec.js rel=prefetch><link href=static/js/chunk-111199ab.65038635.js rel=prefetch><link href=static/js/chunk-11c41ca4.dc5fa9ec.js rel=prefetch><link href=static/js/chunk-12c72f68.b1cd921c.js rel=prefetch><link href=static/js/chunk-13e95aef.4750ea96.js rel=prefetch><link href=static/js/chunk-1c984023.8c674f3e.js rel=prefetch><link href=static/js/chunk-21e35c50.9b624024.js rel=prefetch><link href=static/js/chunk-2a0c0d69.76ef0952.js rel=prefetch><link href=static/js/chunk-2b8781c5.662e2b19.js rel=prefetch><link href=static/js/chunk-2d0b2168.3784a800.js rel=prefetch><link href=static/js/chunk-2d0cf3a0.2d53d8c4.js rel=prefetch><link href=static/js/chunk-2d229d78.49f52f60.js rel=prefetch><link href=static/js/chunk-30c42808.c2b29c51.js rel=prefetch><link href=static/js/chunk-37b7374a.31cc15fa.js rel=prefetch><link href=static/js/chunk-403a311a.3d59307c.js rel=prefetch><link href=static/js/chunk-44a77a3a.fecbdd0f.js rel=prefetch><link href=static/js/chunk-459074ad.1161642a.js rel=prefetch><link href=static/js/chunk-4b9b06e0.0e1ea5a6.js rel=prefetch><link href=static/js/chunk-5e53d252.9f1e7002.js rel=prefetch><link href=static/js/chunk-60c6bbd2.f9ca353e.js rel=prefetch><link href=static/js/chunk-6922c06f.b0690551.js rel=prefetch><link href=static/js/chunk-6a5cf5d0.34a5ef09.js rel=prefetch><link href=static/js/chunk-754117c9.c04eacf6.js rel=prefetch><link href=static/js/chunk-76687867.eaf36140.js rel=prefetch><link href=static/js/chunk-8c65274e.f8ac2730.js rel=prefetch><link href=static/js/chunk-b0e4167e.0b5f37fd.js rel=prefetch><link href=static/js/chunk-b859e8b2.b3e4c64d.js rel=prefetch><link href=static/js/chunk-c8588832.389550f9.js rel=prefetch><link href=static/js/chunk-cc40743c.3e27de50.js rel=prefetch><link href=static/css/app.44e8eb62.css rel=preload as=style><link href=static/css/chunk-vendors.a0b7a3b6.css rel=preload as=style><link href=static/js/app.8b3d09fa.js rel=preload as=script><link href=static/js/chunk-vendors.f0e2473c.js rel=preload as=script><link href=static/css/chunk-vendors.a0b7a3b6.css rel=stylesheet><link href=static/css/app.44e8eb62.css rel=stylesheet></head><body><noscript><strong>We're sorry but customer.eship.com doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=static/js/chunk-vendors.f0e2473c.js></script><script src=static/js/app.8b3d09fa.js></script></body></html>
+2020-06-09 13:52:26,302 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>客户登录接口
+2020-06-09 13:52:26,304 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 13:52:26,304 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/v1/subject/login
+2020-06-09 13:52:26,306 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:52:26,307 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:52:26,307 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:52:26,309 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:52:26,309 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 13:52:26,310 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:52:25 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Mon, 08-Jun-2020 05:52:25 GMT, JSESSIONID=74fb938e-db2c-4264-ad9d-4bc7ab1f8211;domain=17feia.com;path=/;HttpOnly'}
+2020-06-09 13:52:26,311 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-06-09 13:53:46,373 - D:\PycharmProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 msg=>LOGIN_SUCCESS 到全局变量池
+2020-06-09 13:55:43,053 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>客户登录接口
+2020-06-09 13:55:43,054 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 13:55:43,055 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/v1/subject/login
+2020-06-09 13:55:43,057 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:55:43,057 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:55:43,058 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:55:43,059 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:55:43,059 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 13:55:43,060 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:55:42 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Mon, 08-Jun-2020 05:55:42 GMT, JSESSIONID=190181a3-5b43-4e8a-9618-68985307d672;domain=17feia.com;path=/;HttpOnly'}
+2020-06-09 13:55:43,061 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-06-09 13:55:43,073 - D:\PycharmProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 msg=>LOGIN_SUCCESS 到全局变量池
+2020-06-09 13:55:43,075 - D:\PycharmProjects\test\common\interfance.py[line:54] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-06-09 13:55:43,170 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>判断是否登录
+2020-06-09 13:55:43,171 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 13:55:43,172 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/public/v1/subject/isLogin
+2020-06-09 13:55:43,174 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:55:43,175 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:55:43,176 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:55:43,177 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:55:43,177 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 13:55:43,178 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:55:42 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '50', 'Connection': 'keep-alive'}
+2020-06-09 13:55:43,179 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"flag":true,
+	"msg":"## success",
+	"obj":null
+}
+2020-06-09 13:55:43,298 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取公司信息
+2020-06-09 13:55:43,299 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 13:55:43,299 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/user/getCompanyInfo
+2020-06-09 13:55:43,300 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:55:43,301 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:55:43,302 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:55:43,302 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:55:43,303 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 13:55:43,304 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:55:42 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '149', 'Connection': 'keep-alive'}
+2020-06-09 13:55:43,306 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 13:55:42",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/author/user/getCompanyInfo"
+}
+2020-06-09 13:55:43,499 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取用户信息
+2020-06-09 13:55:43,500 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 13:55:43,501 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/subject/getLoginCustomerInfo
+2020-06-09 13:55:43,502 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:55:43,502 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:55:43,503 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:55:43,504 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:55:43,505 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 13:55:43,506 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:55:42 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '163', 'Connection': 'keep-alive'}
+2020-06-09 13:55:43,506 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 13:55:42",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/subject/getLoginCustomerInfo"
+}
+2020-06-09 13:55:43,620 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取菜单栏
+2020-06-09 13:55:43,622 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 13:55:43,623 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/menu/findMenusByUser
+2020-06-09 13:55:43,624 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:55:43,625 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:55:43,625 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:55:43,626 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:55:43,626 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 13:55:43,627 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:55:42 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '155', 'Connection': 'keep-alive'}
+2020-06-09 13:55:43,628 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 13:55:42",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/menu/findMenusByUser"
+}
+2020-06-09 13:55:43,835 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>登出
+2020-06-09 13:55:43,836 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 13:55:43,837 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/logout
+2020-06-09 13:55:43,838 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:55:43,840 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:55:43,841 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:55:43,841 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:55:43,842 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 13:55:43,843 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:55:43 GMT', 'Content-Type': 'text/html', 'Content-Length': '5159', 'Last-Modified': 'Mon, 08 Jun 2020 09:03:14 GMT', 'Connection': 'keep-alive', 'ETag': '"5eddfed2-1427"', 'Accept-Ranges': 'bytes'}
+2020-06-09 13:55:43,843 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====><!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=./favicon.ico type=image/x-icon><title>customer.eship.com</title><script src=./static/assets/js/gt.js></script><script src=./static/assets/js/browser.js></script><link href=http://at.alicdn.com/t/font_1530113_vbnkki1qyn.css rel=stylesheet type=text/css><link href=static/css/chunk-00011340.d2587d2d.css rel=prefetch><link href=static/css/chunk-006dc2e4.062f1d98.css rel=prefetch><link href=static/css/chunk-0477d616.304a389a.css rel=prefetch><link href=static/css/chunk-0af74ad3.face4b9b.css rel=prefetch><link href=static/css/chunk-0bed8262.824a4ef8.css rel=prefetch><link href=static/css/chunk-1018cb42.cb24f1c4.css rel=prefetch><link href=static/css/chunk-111199ab.5167911d.css rel=prefetch><link href=static/css/chunk-11c41ca4.36906228.css rel=prefetch><link href=static/css/chunk-12c72f68.50aa4c00.css rel=prefetch><link href=static/css/chunk-13e95aef.f7070104.css rel=prefetch><link href=static/css/chunk-1c984023.635fbcaa.css rel=prefetch><link href=static/css/chunk-21e35c50.ead47afb.css rel=prefetch><link href=static/css/chunk-2a0c0d69.a79fd2fb.css rel=prefetch><link href=static/css/chunk-2b8781c5.462d5ce3.css rel=prefetch><link href=static/css/chunk-30c42808.3f0cf9c2.css rel=prefetch><link href=static/css/chunk-37b7374a.5f00c13c.css rel=prefetch><link href=static/css/chunk-403a311a.4e237659.css rel=prefetch><link href=static/css/chunk-44a77a3a.24fedd6d.css rel=prefetch><link href=static/css/chunk-459074ad.b346c9de.css rel=prefetch><link href=static/css/chunk-4b9b06e0.2aa8b684.css rel=prefetch><link href=static/css/chunk-5e53d252.cd5c5553.css rel=prefetch><link href=static/css/chunk-60c6bbd2.bacb786d.css rel=prefetch><link href=static/css/chunk-6922c06f.267fc8ed.css rel=prefetch><link href=static/css/chunk-6a5cf5d0.4675d4d7.css rel=prefetch><link href=static/css/chunk-754117c9.c60a95ec.css rel=prefetch><link href=static/css/chunk-76687867.f7c166b1.css rel=prefetch><link href=static/css/chunk-8c65274e.8fb96920.css rel=prefetch><link href=static/css/chunk-b0e4167e.dbdee651.css rel=prefetch><link href=static/css/chunk-b859e8b2.f6014242.css rel=prefetch><link href=static/css/chunk-c8588832.f0d0b75f.css rel=prefetch><link href=static/css/chunk-cc40743c.55d4bf34.css rel=prefetch><link href=static/js/chunk-00011340.28213351.js rel=prefetch><link href=static/js/chunk-006dc2e4.8bee2b47.js rel=prefetch><link href=static/js/chunk-0477d616.7f9ec7a0.js rel=prefetch><link href=static/js/chunk-0af74ad3.231f935e.js rel=prefetch><link href=static/js/chunk-0bed8262.c8eb98e1.js rel=prefetch><link href=static/js/chunk-1018cb42.e510faec.js rel=prefetch><link href=static/js/chunk-111199ab.65038635.js rel=prefetch><link href=static/js/chunk-11c41ca4.dc5fa9ec.js rel=prefetch><link href=static/js/chunk-12c72f68.b1cd921c.js rel=prefetch><link href=static/js/chunk-13e95aef.4750ea96.js rel=prefetch><link href=static/js/chunk-1c984023.8c674f3e.js rel=prefetch><link href=static/js/chunk-21e35c50.9b624024.js rel=prefetch><link href=static/js/chunk-2a0c0d69.76ef0952.js rel=prefetch><link href=static/js/chunk-2b8781c5.662e2b19.js rel=prefetch><link href=static/js/chunk-2d0b2168.3784a800.js rel=prefetch><link href=static/js/chunk-2d0cf3a0.2d53d8c4.js rel=prefetch><link href=static/js/chunk-2d229d78.49f52f60.js rel=prefetch><link href=static/js/chunk-30c42808.c2b29c51.js rel=prefetch><link href=static/js/chunk-37b7374a.31cc15fa.js rel=prefetch><link href=static/js/chunk-403a311a.3d59307c.js rel=prefetch><link href=static/js/chunk-44a77a3a.fecbdd0f.js rel=prefetch><link href=static/js/chunk-459074ad.1161642a.js rel=prefetch><link href=static/js/chunk-4b9b06e0.0e1ea5a6.js rel=prefetch><link href=static/js/chunk-5e53d252.9f1e7002.js rel=prefetch><link href=static/js/chunk-60c6bbd2.f9ca353e.js rel=prefetch><link href=static/js/chunk-6922c06f.b0690551.js rel=prefetch><link href=static/js/chunk-6a5cf5d0.34a5ef09.js rel=prefetch><link href=static/js/chunk-754117c9.c04eacf6.js rel=prefetch><link href=static/js/chunk-76687867.eaf36140.js rel=prefetch><link href=static/js/chunk-8c65274e.f8ac2730.js rel=prefetch><link href=static/js/chunk-b0e4167e.0b5f37fd.js rel=prefetch><link href=static/js/chunk-b859e8b2.b3e4c64d.js rel=prefetch><link href=static/js/chunk-c8588832.389550f9.js rel=prefetch><link href=static/js/chunk-cc40743c.3e27de50.js rel=prefetch><link href=static/css/app.44e8eb62.css rel=preload as=style><link href=static/css/chunk-vendors.a0b7a3b6.css rel=preload as=style><link href=static/js/app.8b3d09fa.js rel=preload as=script><link href=static/js/chunk-vendors.f0e2473c.js rel=preload as=script><link href=static/css/chunk-vendors.a0b7a3b6.css rel=stylesheet><link href=static/css/app.44e8eb62.css rel=stylesheet></head><body><noscript><strong>We're sorry but customer.eship.com doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=static/js/chunk-vendors.f0e2473c.js></script><script src=static/js/app.8b3d09fa.js></script></body></html>
+2020-06-09 13:55:45,597 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>客户登录接口
+2020-06-09 13:55:45,598 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 13:55:45,599 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/v1/subject/login
+2020-06-09 13:55:45,601 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:55:45,602 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:55:45,603 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:55:45,603 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:55:45,604 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 13:55:45,605 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:55:44 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Mon, 08-Jun-2020 05:55:44 GMT, JSESSIONID=37097920-5eb8-4d5d-82a5-632a9790f500;domain=17feia.com;path=/;HttpOnly'}
+2020-06-09 13:55:45,606 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-06-09 13:55:45,626 - D:\PycharmProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 msg=>LOGIN_SUCCESS 到全局变量池
+2020-06-09 13:55:45,628 - D:\PycharmProjects\test\common\interfance.py[line:54] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-06-09 13:55:45,751 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>判断是否登录
+2020-06-09 13:55:45,752 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 13:55:45,753 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/public/v1/subject/isLogin
+2020-06-09 13:55:45,754 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:55:45,755 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:55:45,757 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:55:45,758 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:55:45,758 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 13:55:45,760 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:55:44 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '50', 'Connection': 'keep-alive'}
+2020-06-09 13:55:45,760 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"flag":true,
+	"msg":"## success",
+	"obj":null
+}
+2020-06-09 13:55:45,927 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取公司信息
+2020-06-09 13:55:45,928 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 13:55:45,929 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/user/getCompanyInfo
+2020-06-09 13:55:45,931 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:55:45,932 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:55:45,933 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:55:45,934 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:55:45,935 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 13:55:45,936 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:55:45 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '149', 'Connection': 'keep-alive'}
+2020-06-09 13:55:45,937 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 13:55:45",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/author/user/getCompanyInfo"
+}
+2020-06-09 13:55:46,064 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取用户信息
+2020-06-09 13:55:46,065 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 13:55:46,065 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/subject/getLoginCustomerInfo
+2020-06-09 13:55:46,067 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:55:46,068 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:55:46,069 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:55:46,070 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:55:46,070 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 13:55:46,072 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:55:45 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '163', 'Connection': 'keep-alive'}
+2020-06-09 13:55:46,072 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 13:55:45",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/subject/getLoginCustomerInfo"
+}
+2020-06-09 13:55:46,198 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取菜单栏
+2020-06-09 13:55:46,199 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 13:55:46,200 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/menu/findMenusByUser
+2020-06-09 13:55:46,201 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:55:46,202 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:55:46,203 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:55:46,204 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:55:46,205 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 13:55:46,206 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:55:45 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '155', 'Connection': 'keep-alive'}
+2020-06-09 13:55:46,207 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 13:55:45",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/menu/findMenusByUser"
+}
+2020-06-09 13:55:46,432 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>登出
+2020-06-09 13:55:46,434 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 13:55:46,435 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/logout
+2020-06-09 13:55:46,437 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:55:46,439 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:55:46,442 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:55:46,443 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:55:46,445 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 13:55:46,448 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:55:45 GMT', 'Content-Type': 'text/html', 'Content-Length': '5159', 'Last-Modified': 'Mon, 08 Jun 2020 09:03:14 GMT', 'Connection': 'keep-alive', 'ETag': '"5eddfed2-1427"', 'Accept-Ranges': 'bytes'}
+2020-06-09 13:55:46,450 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====><!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=./favicon.ico type=image/x-icon><title>customer.eship.com</title><script src=./static/assets/js/gt.js></script><script src=./static/assets/js/browser.js></script><link href=http://at.alicdn.com/t/font_1530113_vbnkki1qyn.css rel=stylesheet type=text/css><link href=static/css/chunk-00011340.d2587d2d.css rel=prefetch><link href=static/css/chunk-006dc2e4.062f1d98.css rel=prefetch><link href=static/css/chunk-0477d616.304a389a.css rel=prefetch><link href=static/css/chunk-0af74ad3.face4b9b.css rel=prefetch><link href=static/css/chunk-0bed8262.824a4ef8.css rel=prefetch><link href=static/css/chunk-1018cb42.cb24f1c4.css rel=prefetch><link href=static/css/chunk-111199ab.5167911d.css rel=prefetch><link href=static/css/chunk-11c41ca4.36906228.css rel=prefetch><link href=static/css/chunk-12c72f68.50aa4c00.css rel=prefetch><link href=static/css/chunk-13e95aef.f7070104.css rel=prefetch><link href=static/css/chunk-1c984023.635fbcaa.css rel=prefetch><link href=static/css/chunk-21e35c50.ead47afb.css rel=prefetch><link href=static/css/chunk-2a0c0d69.a79fd2fb.css rel=prefetch><link href=static/css/chunk-2b8781c5.462d5ce3.css rel=prefetch><link href=static/css/chunk-30c42808.3f0cf9c2.css rel=prefetch><link href=static/css/chunk-37b7374a.5f00c13c.css rel=prefetch><link href=static/css/chunk-403a311a.4e237659.css rel=prefetch><link href=static/css/chunk-44a77a3a.24fedd6d.css rel=prefetch><link href=static/css/chunk-459074ad.b346c9de.css rel=prefetch><link href=static/css/chunk-4b9b06e0.2aa8b684.css rel=prefetch><link href=static/css/chunk-5e53d252.cd5c5553.css rel=prefetch><link href=static/css/chunk-60c6bbd2.bacb786d.css rel=prefetch><link href=static/css/chunk-6922c06f.267fc8ed.css rel=prefetch><link href=static/css/chunk-6a5cf5d0.4675d4d7.css rel=prefetch><link href=static/css/chunk-754117c9.c60a95ec.css rel=prefetch><link href=static/css/chunk-76687867.f7c166b1.css rel=prefetch><link href=static/css/chunk-8c65274e.8fb96920.css rel=prefetch><link href=static/css/chunk-b0e4167e.dbdee651.css rel=prefetch><link href=static/css/chunk-b859e8b2.f6014242.css rel=prefetch><link href=static/css/chunk-c8588832.f0d0b75f.css rel=prefetch><link href=static/css/chunk-cc40743c.55d4bf34.css rel=prefetch><link href=static/js/chunk-00011340.28213351.js rel=prefetch><link href=static/js/chunk-006dc2e4.8bee2b47.js rel=prefetch><link href=static/js/chunk-0477d616.7f9ec7a0.js rel=prefetch><link href=static/js/chunk-0af74ad3.231f935e.js rel=prefetch><link href=static/js/chunk-0bed8262.c8eb98e1.js rel=prefetch><link href=static/js/chunk-1018cb42.e510faec.js rel=prefetch><link href=static/js/chunk-111199ab.65038635.js rel=prefetch><link href=static/js/chunk-11c41ca4.dc5fa9ec.js rel=prefetch><link href=static/js/chunk-12c72f68.b1cd921c.js rel=prefetch><link href=static/js/chunk-13e95aef.4750ea96.js rel=prefetch><link href=static/js/chunk-1c984023.8c674f3e.js rel=prefetch><link href=static/js/chunk-21e35c50.9b624024.js rel=prefetch><link href=static/js/chunk-2a0c0d69.76ef0952.js rel=prefetch><link href=static/js/chunk-2b8781c5.662e2b19.js rel=prefetch><link href=static/js/chunk-2d0b2168.3784a800.js rel=prefetch><link href=static/js/chunk-2d0cf3a0.2d53d8c4.js rel=prefetch><link href=static/js/chunk-2d229d78.49f52f60.js rel=prefetch><link href=static/js/chunk-30c42808.c2b29c51.js rel=prefetch><link href=static/js/chunk-37b7374a.31cc15fa.js rel=prefetch><link href=static/js/chunk-403a311a.3d59307c.js rel=prefetch><link href=static/js/chunk-44a77a3a.fecbdd0f.js rel=prefetch><link href=static/js/chunk-459074ad.1161642a.js rel=prefetch><link href=static/js/chunk-4b9b06e0.0e1ea5a6.js rel=prefetch><link href=static/js/chunk-5e53d252.9f1e7002.js rel=prefetch><link href=static/js/chunk-60c6bbd2.f9ca353e.js rel=prefetch><link href=static/js/chunk-6922c06f.b0690551.js rel=prefetch><link href=static/js/chunk-6a5cf5d0.34a5ef09.js rel=prefetch><link href=static/js/chunk-754117c9.c04eacf6.js rel=prefetch><link href=static/js/chunk-76687867.eaf36140.js rel=prefetch><link href=static/js/chunk-8c65274e.f8ac2730.js rel=prefetch><link href=static/js/chunk-b0e4167e.0b5f37fd.js rel=prefetch><link href=static/js/chunk-b859e8b2.b3e4c64d.js rel=prefetch><link href=static/js/chunk-c8588832.389550f9.js rel=prefetch><link href=static/js/chunk-cc40743c.3e27de50.js rel=prefetch><link href=static/css/app.44e8eb62.css rel=preload as=style><link href=static/css/chunk-vendors.a0b7a3b6.css rel=preload as=style><link href=static/js/app.8b3d09fa.js rel=preload as=script><link href=static/js/chunk-vendors.f0e2473c.js rel=preload as=script><link href=static/css/chunk-vendors.a0b7a3b6.css rel=stylesheet><link href=static/css/app.44e8eb62.css rel=stylesheet></head><body><noscript><strong>We're sorry but customer.eship.com doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=static/js/chunk-vendors.f0e2473c.js></script><script src=static/js/app.8b3d09fa.js></script></body></html>
+2020-06-09 13:55:47,497 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>客户登录接口
+2020-06-09 13:55:47,498 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 13:55:47,500 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/v1/subject/login
+2020-06-09 13:55:47,503 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:55:47,504 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:55:47,505 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:55:47,507 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:55:47,508 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 13:55:47,510 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:55:46 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Mon, 08-Jun-2020 05:55:46 GMT, JSESSIONID=d0768d57-fa33-4971-8fec-a2451ab59104;domain=17feia.com;path=/;HttpOnly'}
+2020-06-09 13:55:47,511 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-06-09 13:55:47,551 - D:\PycharmProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 msg=>LOGIN_SUCCESS 到全局变量池
+2020-06-09 13:55:47,554 - D:\PycharmProjects\test\common\interfance.py[line:54] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-06-09 13:55:48,033 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>判断是否登录
+2020-06-09 13:55:48,035 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 13:55:48,037 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/public/v1/subject/isLogin
+2020-06-09 13:55:48,039 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:55:48,041 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:55:48,043 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:55:48,044 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:55:48,046 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 13:55:48,048 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:55:46 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '50', 'Connection': 'keep-alive'}
+2020-06-09 13:55:48,050 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"flag":true,
+	"msg":"## success",
+	"obj":null
+}
+2020-06-09 13:55:48,728 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取公司信息
+2020-06-09 13:55:48,729 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 13:55:48,730 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/user/getCompanyInfo
+2020-06-09 13:55:48,732 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:55:48,733 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:55:48,734 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:55:48,735 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:55:48,736 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 13:55:48,737 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:55:47 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '149', 'Connection': 'keep-alive'}
+2020-06-09 13:55:48,738 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 13:55:47",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/author/user/getCompanyInfo"
+}
+2020-06-09 13:55:48,898 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取用户信息
+2020-06-09 13:55:48,899 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 13:55:48,900 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/subject/getLoginCustomerInfo
+2020-06-09 13:55:48,902 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:55:48,903 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:55:48,904 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:55:48,905 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:55:48,906 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 13:55:48,908 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:55:48 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '163', 'Connection': 'keep-alive'}
+2020-06-09 13:55:48,909 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 13:55:48",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/subject/getLoginCustomerInfo"
+}
+2020-06-09 13:55:49,078 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取菜单栏
+2020-06-09 13:55:49,079 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 13:55:49,080 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/menu/findMenusByUser
+2020-06-09 13:55:49,082 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:55:49,083 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:55:49,084 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:55:49,085 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:55:49,086 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 13:55:49,087 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:55:48 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '155', 'Connection': 'keep-alive'}
+2020-06-09 13:55:49,088 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 13:55:48",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/menu/findMenusByUser"
+}
+2020-06-09 13:55:49,337 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>登出
+2020-06-09 13:55:49,338 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 13:55:49,339 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/logout
+2020-06-09 13:55:49,341 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 13:55:49,342 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 13:55:49,343 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 13:55:49,344 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 13:55:49,345 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 13:55:49,346 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 05:55:48 GMT', 'Content-Type': 'text/html', 'Content-Length': '5159', 'Last-Modified': 'Mon, 08 Jun 2020 09:03:14 GMT', 'Connection': 'keep-alive', 'ETag': '"5eddfed2-1427"', 'Accept-Ranges': 'bytes'}
+2020-06-09 13:55:49,347 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====><!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=./favicon.ico type=image/x-icon><title>customer.eship.com</title><script src=./static/assets/js/gt.js></script><script src=./static/assets/js/browser.js></script><link href=http://at.alicdn.com/t/font_1530113_vbnkki1qyn.css rel=stylesheet type=text/css><link href=static/css/chunk-00011340.d2587d2d.css rel=prefetch><link href=static/css/chunk-006dc2e4.062f1d98.css rel=prefetch><link href=static/css/chunk-0477d616.304a389a.css rel=prefetch><link href=static/css/chunk-0af74ad3.face4b9b.css rel=prefetch><link href=static/css/chunk-0bed8262.824a4ef8.css rel=prefetch><link href=static/css/chunk-1018cb42.cb24f1c4.css rel=prefetch><link href=static/css/chunk-111199ab.5167911d.css rel=prefetch><link href=static/css/chunk-11c41ca4.36906228.css rel=prefetch><link href=static/css/chunk-12c72f68.50aa4c00.css rel=prefetch><link href=static/css/chunk-13e95aef.f7070104.css rel=prefetch><link href=static/css/chunk-1c984023.635fbcaa.css rel=prefetch><link href=static/css/chunk-21e35c50.ead47afb.css rel=prefetch><link href=static/css/chunk-2a0c0d69.a79fd2fb.css rel=prefetch><link href=static/css/chunk-2b8781c5.462d5ce3.css rel=prefetch><link href=static/css/chunk-30c42808.3f0cf9c2.css rel=prefetch><link href=static/css/chunk-37b7374a.5f00c13c.css rel=prefetch><link href=static/css/chunk-403a311a.4e237659.css rel=prefetch><link href=static/css/chunk-44a77a3a.24fedd6d.css rel=prefetch><link href=static/css/chunk-459074ad.b346c9de.css rel=prefetch><link href=static/css/chunk-4b9b06e0.2aa8b684.css rel=prefetch><link href=static/css/chunk-5e53d252.cd5c5553.css rel=prefetch><link href=static/css/chunk-60c6bbd2.bacb786d.css rel=prefetch><link href=static/css/chunk-6922c06f.267fc8ed.css rel=prefetch><link href=static/css/chunk-6a5cf5d0.4675d4d7.css rel=prefetch><link href=static/css/chunk-754117c9.c60a95ec.css rel=prefetch><link href=static/css/chunk-76687867.f7c166b1.css rel=prefetch><link href=static/css/chunk-8c65274e.8fb96920.css rel=prefetch><link href=static/css/chunk-b0e4167e.dbdee651.css rel=prefetch><link href=static/css/chunk-b859e8b2.f6014242.css rel=prefetch><link href=static/css/chunk-c8588832.f0d0b75f.css rel=prefetch><link href=static/css/chunk-cc40743c.55d4bf34.css rel=prefetch><link href=static/js/chunk-00011340.28213351.js rel=prefetch><link href=static/js/chunk-006dc2e4.8bee2b47.js rel=prefetch><link href=static/js/chunk-0477d616.7f9ec7a0.js rel=prefetch><link href=static/js/chunk-0af74ad3.231f935e.js rel=prefetch><link href=static/js/chunk-0bed8262.c8eb98e1.js rel=prefetch><link href=static/js/chunk-1018cb42.e510faec.js rel=prefetch><link href=static/js/chunk-111199ab.65038635.js rel=prefetch><link href=static/js/chunk-11c41ca4.dc5fa9ec.js rel=prefetch><link href=static/js/chunk-12c72f68.b1cd921c.js rel=prefetch><link href=static/js/chunk-13e95aef.4750ea96.js rel=prefetch><link href=static/js/chunk-1c984023.8c674f3e.js rel=prefetch><link href=static/js/chunk-21e35c50.9b624024.js rel=prefetch><link href=static/js/chunk-2a0c0d69.76ef0952.js rel=prefetch><link href=static/js/chunk-2b8781c5.662e2b19.js rel=prefetch><link href=static/js/chunk-2d0b2168.3784a800.js rel=prefetch><link href=static/js/chunk-2d0cf3a0.2d53d8c4.js rel=prefetch><link href=static/js/chunk-2d229d78.49f52f60.js rel=prefetch><link href=static/js/chunk-30c42808.c2b29c51.js rel=prefetch><link href=static/js/chunk-37b7374a.31cc15fa.js rel=prefetch><link href=static/js/chunk-403a311a.3d59307c.js rel=prefetch><link href=static/js/chunk-44a77a3a.fecbdd0f.js rel=prefetch><link href=static/js/chunk-459074ad.1161642a.js rel=prefetch><link href=static/js/chunk-4b9b06e0.0e1ea5a6.js rel=prefetch><link href=static/js/chunk-5e53d252.9f1e7002.js rel=prefetch><link href=static/js/chunk-60c6bbd2.f9ca353e.js rel=prefetch><link href=static/js/chunk-6922c06f.b0690551.js rel=prefetch><link href=static/js/chunk-6a5cf5d0.34a5ef09.js rel=prefetch><link href=static/js/chunk-754117c9.c04eacf6.js rel=prefetch><link href=static/js/chunk-76687867.eaf36140.js rel=prefetch><link href=static/js/chunk-8c65274e.f8ac2730.js rel=prefetch><link href=static/js/chunk-b0e4167e.0b5f37fd.js rel=prefetch><link href=static/js/chunk-b859e8b2.b3e4c64d.js rel=prefetch><link href=static/js/chunk-c8588832.389550f9.js rel=prefetch><link href=static/js/chunk-cc40743c.3e27de50.js rel=prefetch><link href=static/css/app.44e8eb62.css rel=preload as=style><link href=static/css/chunk-vendors.a0b7a3b6.css rel=preload as=style><link href=static/js/app.8b3d09fa.js rel=preload as=script><link href=static/js/chunk-vendors.f0e2473c.js rel=preload as=script><link href=static/css/chunk-vendors.a0b7a3b6.css rel=stylesheet><link href=static/css/app.44e8eb62.css rel=stylesheet></head><body><noscript><strong>We're sorry but customer.eship.com doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=static/js/chunk-vendors.f0e2473c.js></script><script src=static/js/app.8b3d09fa.js></script></body></html>
+2020-06-09 14:00:11,252 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>客户登录接口
+2020-06-09 14:00:11,254 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:00:11,254 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/v1/subject/login
+2020-06-09 14:00:11,257 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:00:11,426 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取公司信息
+2020-06-09 14:00:11,427 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:00:11,427 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/user/getCompanyInfo
+2020-06-09 14:00:11,428 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:00:11,561 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取用户信息
+2020-06-09 14:00:11,562 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:00:11,562 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/subject/getLoginCustomerInfo
+2020-06-09 14:00:11,563 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:01:19,708 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>客户登录接口
+2020-06-09 14:01:19,709 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:01:19,710 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/v1/subject/login
+2020-06-09 14:01:19,712 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:01:19,713 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:01:19,714 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:01:19,714 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:01:19,715 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:01:19,716 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:01:18 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Mon, 08-Jun-2020 06:01:18 GMT, JSESSIONID=b65ec440-f0f0-46dd-9704-96403b7446a6;domain=17feia.com;path=/;HttpOnly'}
+2020-06-09 14:01:19,717 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-06-09 14:01:19,731 - D:\PycharmProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 msg=>LOGIN_SUCCESS 到全局变量池
+2020-06-09 14:01:19,733 - D:\PycharmProjects\test\common\interfance.py[line:54] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-06-09 14:01:19,834 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>判断是否登录
+2020-06-09 14:01:19,835 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 14:01:19,835 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/public/v1/subject/isLogin
+2020-06-09 14:01:19,836 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:01:19,837 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:01:19,838 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:01:19,839 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:01:19,839 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:01:19,840 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:01:19 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '50', 'Connection': 'keep-alive'}
+2020-06-09 14:01:19,841 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"flag":true,
+	"msg":"## success",
+	"obj":null
+}
+2020-06-09 14:01:19,946 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取公司信息
+2020-06-09 14:01:19,947 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:01:19,948 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/user/getCompanyInfo
+2020-06-09 14:01:19,949 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:01:19,950 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:01:19,950 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:01:19,951 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:01:19,952 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 14:01:19,953 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:01:19 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '149', 'Connection': 'keep-alive'}
+2020-06-09 14:01:19,953 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 14:01:19",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/author/user/getCompanyInfo"
+}
+2020-06-09 14:01:20,061 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取用户信息
+2020-06-09 14:01:20,062 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:01:20,063 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/subject/getLoginCustomerInfo
+2020-06-09 14:01:20,064 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:01:20,065 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:01:20,066 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:01:20,066 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:01:20,067 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 14:01:20,068 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:01:19 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '163', 'Connection': 'keep-alive'}
+2020-06-09 14:01:20,068 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 14:01:19",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/subject/getLoginCustomerInfo"
+}
+2020-06-09 14:01:20,167 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取菜单栏
+2020-06-09 14:01:20,168 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 14:01:20,169 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/menu/findMenusByUser
+2020-06-09 14:01:20,170 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:01:20,170 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:01:20,171 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:01:20,172 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:01:20,172 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 14:01:20,173 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:01:19 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '155', 'Connection': 'keep-alive'}
+2020-06-09 14:01:20,174 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 14:01:19",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/menu/findMenusByUser"
+}
+2020-06-09 14:01:20,560 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>登出
+2020-06-09 14:01:20,560 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 14:01:20,561 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/logout
+2020-06-09 14:01:20,561 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:01:20,562 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:01:20,562 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:01:20,563 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:01:20,563 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:01:20,564 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:01:19 GMT', 'Content-Type': 'text/html', 'Content-Length': '5159', 'Last-Modified': 'Mon, 08 Jun 2020 09:03:14 GMT', 'Connection': 'keep-alive', 'ETag': '"5eddfed2-1427"', 'Accept-Ranges': 'bytes'}
+2020-06-09 14:01:20,564 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====><!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=./favicon.ico type=image/x-icon><title>customer.eship.com</title><script src=./static/assets/js/gt.js></script><script src=./static/assets/js/browser.js></script><link href=http://at.alicdn.com/t/font_1530113_vbnkki1qyn.css rel=stylesheet type=text/css><link href=static/css/chunk-00011340.d2587d2d.css rel=prefetch><link href=static/css/chunk-006dc2e4.062f1d98.css rel=prefetch><link href=static/css/chunk-0477d616.304a389a.css rel=prefetch><link href=static/css/chunk-0af74ad3.face4b9b.css rel=prefetch><link href=static/css/chunk-0bed8262.824a4ef8.css rel=prefetch><link href=static/css/chunk-1018cb42.cb24f1c4.css rel=prefetch><link href=static/css/chunk-111199ab.5167911d.css rel=prefetch><link href=static/css/chunk-11c41ca4.36906228.css rel=prefetch><link href=static/css/chunk-12c72f68.50aa4c00.css rel=prefetch><link href=static/css/chunk-13e95aef.f7070104.css rel=prefetch><link href=static/css/chunk-1c984023.635fbcaa.css rel=prefetch><link href=static/css/chunk-21e35c50.ead47afb.css rel=prefetch><link href=static/css/chunk-2a0c0d69.a79fd2fb.css rel=prefetch><link href=static/css/chunk-2b8781c5.462d5ce3.css rel=prefetch><link href=static/css/chunk-30c42808.3f0cf9c2.css rel=prefetch><link href=static/css/chunk-37b7374a.5f00c13c.css rel=prefetch><link href=static/css/chunk-403a311a.4e237659.css rel=prefetch><link href=static/css/chunk-44a77a3a.24fedd6d.css rel=prefetch><link href=static/css/chunk-459074ad.b346c9de.css rel=prefetch><link href=static/css/chunk-4b9b06e0.2aa8b684.css rel=prefetch><link href=static/css/chunk-5e53d252.cd5c5553.css rel=prefetch><link href=static/css/chunk-60c6bbd2.bacb786d.css rel=prefetch><link href=static/css/chunk-6922c06f.267fc8ed.css rel=prefetch><link href=static/css/chunk-6a5cf5d0.4675d4d7.css rel=prefetch><link href=static/css/chunk-754117c9.c60a95ec.css rel=prefetch><link href=static/css/chunk-76687867.f7c166b1.css rel=prefetch><link href=static/css/chunk-8c65274e.8fb96920.css rel=prefetch><link href=static/css/chunk-b0e4167e.dbdee651.css rel=prefetch><link href=static/css/chunk-b859e8b2.f6014242.css rel=prefetch><link href=static/css/chunk-c8588832.f0d0b75f.css rel=prefetch><link href=static/css/chunk-cc40743c.55d4bf34.css rel=prefetch><link href=static/js/chunk-00011340.28213351.js rel=prefetch><link href=static/js/chunk-006dc2e4.8bee2b47.js rel=prefetch><link href=static/js/chunk-0477d616.7f9ec7a0.js rel=prefetch><link href=static/js/chunk-0af74ad3.231f935e.js rel=prefetch><link href=static/js/chunk-0bed8262.c8eb98e1.js rel=prefetch><link href=static/js/chunk-1018cb42.e510faec.js rel=prefetch><link href=static/js/chunk-111199ab.65038635.js rel=prefetch><link href=static/js/chunk-11c41ca4.dc5fa9ec.js rel=prefetch><link href=static/js/chunk-12c72f68.b1cd921c.js rel=prefetch><link href=static/js/chunk-13e95aef.4750ea96.js rel=prefetch><link href=static/js/chunk-1c984023.8c674f3e.js rel=prefetch><link href=static/js/chunk-21e35c50.9b624024.js rel=prefetch><link href=static/js/chunk-2a0c0d69.76ef0952.js rel=prefetch><link href=static/js/chunk-2b8781c5.662e2b19.js rel=prefetch><link href=static/js/chunk-2d0b2168.3784a800.js rel=prefetch><link href=static/js/chunk-2d0cf3a0.2d53d8c4.js rel=prefetch><link href=static/js/chunk-2d229d78.49f52f60.js rel=prefetch><link href=static/js/chunk-30c42808.c2b29c51.js rel=prefetch><link href=static/js/chunk-37b7374a.31cc15fa.js rel=prefetch><link href=static/js/chunk-403a311a.3d59307c.js rel=prefetch><link href=static/js/chunk-44a77a3a.fecbdd0f.js rel=prefetch><link href=static/js/chunk-459074ad.1161642a.js rel=prefetch><link href=static/js/chunk-4b9b06e0.0e1ea5a6.js rel=prefetch><link href=static/js/chunk-5e53d252.9f1e7002.js rel=prefetch><link href=static/js/chunk-60c6bbd2.f9ca353e.js rel=prefetch><link href=static/js/chunk-6922c06f.b0690551.js rel=prefetch><link href=static/js/chunk-6a5cf5d0.34a5ef09.js rel=prefetch><link href=static/js/chunk-754117c9.c04eacf6.js rel=prefetch><link href=static/js/chunk-76687867.eaf36140.js rel=prefetch><link href=static/js/chunk-8c65274e.f8ac2730.js rel=prefetch><link href=static/js/chunk-b0e4167e.0b5f37fd.js rel=prefetch><link href=static/js/chunk-b859e8b2.b3e4c64d.js rel=prefetch><link href=static/js/chunk-c8588832.389550f9.js rel=prefetch><link href=static/js/chunk-cc40743c.3e27de50.js rel=prefetch><link href=static/css/app.44e8eb62.css rel=preload as=style><link href=static/css/chunk-vendors.a0b7a3b6.css rel=preload as=style><link href=static/js/app.8b3d09fa.js rel=preload as=script><link href=static/js/chunk-vendors.f0e2473c.js rel=preload as=script><link href=static/css/chunk-vendors.a0b7a3b6.css rel=stylesheet><link href=static/css/app.44e8eb62.css rel=stylesheet></head><body><noscript><strong>We're sorry but customer.eship.com doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=static/js/chunk-vendors.f0e2473c.js></script><script src=static/js/app.8b3d09fa.js></script></body></html>
+2020-06-09 14:01:59,084 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>客户登录接口
+2020-06-09 14:01:59,085 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:01:59,085 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/v1/subject/login
+2020-06-09 14:01:59,085 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:01:59,086 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:01:59,086 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:01:59,086 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:01:59,086 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:01:59,086 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:01:58 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Mon, 08-Jun-2020 06:01:58 GMT, JSESSIONID=59fa63de-b9a8-4ed7-9afd-89e204a83e9f;domain=17feia.com;path=/;HttpOnly'}
+2020-06-09 14:01:59,087 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-06-09 14:01:59,090 - D:\PycharmProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 msg=>LOGIN_SUCCESS 到全局变量池
+2020-06-09 14:01:59,090 - D:\PycharmProjects\test\common\interfance.py[line:54] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-06-09 14:01:59,159 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>判断是否登录
+2020-06-09 14:01:59,159 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 14:01:59,160 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/public/v1/subject/isLogin
+2020-06-09 14:01:59,161 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:01:59,161 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:01:59,161 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:01:59,162 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:01:59,162 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:01:59,162 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:01:58 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '50', 'Connection': 'keep-alive'}
+2020-06-09 14:01:59,163 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"flag":true,
+	"msg":"## success",
+	"obj":null
+}
+2020-06-09 14:01:59,255 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取公司信息
+2020-06-09 14:01:59,256 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:01:59,257 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/user/getCompanyInfo
+2020-06-09 14:01:59,257 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:01:59,258 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:01:59,258 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:01:59,258 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:01:59,259 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 14:01:59,259 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:01:58 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '149', 'Connection': 'keep-alive'}
+2020-06-09 14:01:59,259 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 14:01:58",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/author/user/getCompanyInfo"
+}
+2020-06-09 14:01:59,349 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取用户信息
+2020-06-09 14:01:59,349 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:01:59,350 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/subject/getLoginCustomerInfo
+2020-06-09 14:01:59,350 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:01:59,351 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:01:59,351 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:01:59,351 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:01:59,352 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 14:01:59,352 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:01:58 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '163', 'Connection': 'keep-alive'}
+2020-06-09 14:01:59,353 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 14:01:58",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/subject/getLoginCustomerInfo"
+}
+2020-06-09 14:01:59,440 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取菜单栏
+2020-06-09 14:01:59,441 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 14:01:59,442 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/menu/findMenusByUser
+2020-06-09 14:01:59,442 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:01:59,443 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:01:59,443 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:01:59,443 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:01:59,444 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 14:01:59,444 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:01:58 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '155', 'Connection': 'keep-alive'}
+2020-06-09 14:01:59,445 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 14:01:58",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/menu/findMenusByUser"
+}
+2020-06-09 14:01:59,578 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>登出
+2020-06-09 14:01:59,579 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 14:01:59,579 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/logout
+2020-06-09 14:01:59,580 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:01:59,580 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:01:59,581 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:01:59,581 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:01:59,582 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:01:59,582 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:01:58 GMT', 'Content-Type': 'text/html', 'Content-Length': '5159', 'Last-Modified': 'Mon, 08 Jun 2020 09:03:14 GMT', 'Connection': 'keep-alive', 'ETag': '"5eddfed2-1427"', 'Accept-Ranges': 'bytes'}
+2020-06-09 14:01:59,583 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====><!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=./favicon.ico type=image/x-icon><title>customer.eship.com</title><script src=./static/assets/js/gt.js></script><script src=./static/assets/js/browser.js></script><link href=http://at.alicdn.com/t/font_1530113_vbnkki1qyn.css rel=stylesheet type=text/css><link href=static/css/chunk-00011340.d2587d2d.css rel=prefetch><link href=static/css/chunk-006dc2e4.062f1d98.css rel=prefetch><link href=static/css/chunk-0477d616.304a389a.css rel=prefetch><link href=static/css/chunk-0af74ad3.face4b9b.css rel=prefetch><link href=static/css/chunk-0bed8262.824a4ef8.css rel=prefetch><link href=static/css/chunk-1018cb42.cb24f1c4.css rel=prefetch><link href=static/css/chunk-111199ab.5167911d.css rel=prefetch><link href=static/css/chunk-11c41ca4.36906228.css rel=prefetch><link href=static/css/chunk-12c72f68.50aa4c00.css rel=prefetch><link href=static/css/chunk-13e95aef.f7070104.css rel=prefetch><link href=static/css/chunk-1c984023.635fbcaa.css rel=prefetch><link href=static/css/chunk-21e35c50.ead47afb.css rel=prefetch><link href=static/css/chunk-2a0c0d69.a79fd2fb.css rel=prefetch><link href=static/css/chunk-2b8781c5.462d5ce3.css rel=prefetch><link href=static/css/chunk-30c42808.3f0cf9c2.css rel=prefetch><link href=static/css/chunk-37b7374a.5f00c13c.css rel=prefetch><link href=static/css/chunk-403a311a.4e237659.css rel=prefetch><link href=static/css/chunk-44a77a3a.24fedd6d.css rel=prefetch><link href=static/css/chunk-459074ad.b346c9de.css rel=prefetch><link href=static/css/chunk-4b9b06e0.2aa8b684.css rel=prefetch><link href=static/css/chunk-5e53d252.cd5c5553.css rel=prefetch><link href=static/css/chunk-60c6bbd2.bacb786d.css rel=prefetch><link href=static/css/chunk-6922c06f.267fc8ed.css rel=prefetch><link href=static/css/chunk-6a5cf5d0.4675d4d7.css rel=prefetch><link href=static/css/chunk-754117c9.c60a95ec.css rel=prefetch><link href=static/css/chunk-76687867.f7c166b1.css rel=prefetch><link href=static/css/chunk-8c65274e.8fb96920.css rel=prefetch><link href=static/css/chunk-b0e4167e.dbdee651.css rel=prefetch><link href=static/css/chunk-b859e8b2.f6014242.css rel=prefetch><link href=static/css/chunk-c8588832.f0d0b75f.css rel=prefetch><link href=static/css/chunk-cc40743c.55d4bf34.css rel=prefetch><link href=static/js/chunk-00011340.28213351.js rel=prefetch><link href=static/js/chunk-006dc2e4.8bee2b47.js rel=prefetch><link href=static/js/chunk-0477d616.7f9ec7a0.js rel=prefetch><link href=static/js/chunk-0af74ad3.231f935e.js rel=prefetch><link href=static/js/chunk-0bed8262.c8eb98e1.js rel=prefetch><link href=static/js/chunk-1018cb42.e510faec.js rel=prefetch><link href=static/js/chunk-111199ab.65038635.js rel=prefetch><link href=static/js/chunk-11c41ca4.dc5fa9ec.js rel=prefetch><link href=static/js/chunk-12c72f68.b1cd921c.js rel=prefetch><link href=static/js/chunk-13e95aef.4750ea96.js rel=prefetch><link href=static/js/chunk-1c984023.8c674f3e.js rel=prefetch><link href=static/js/chunk-21e35c50.9b624024.js rel=prefetch><link href=static/js/chunk-2a0c0d69.76ef0952.js rel=prefetch><link href=static/js/chunk-2b8781c5.662e2b19.js rel=prefetch><link href=static/js/chunk-2d0b2168.3784a800.js rel=prefetch><link href=static/js/chunk-2d0cf3a0.2d53d8c4.js rel=prefetch><link href=static/js/chunk-2d229d78.49f52f60.js rel=prefetch><link href=static/js/chunk-30c42808.c2b29c51.js rel=prefetch><link href=static/js/chunk-37b7374a.31cc15fa.js rel=prefetch><link href=static/js/chunk-403a311a.3d59307c.js rel=prefetch><link href=static/js/chunk-44a77a3a.fecbdd0f.js rel=prefetch><link href=static/js/chunk-459074ad.1161642a.js rel=prefetch><link href=static/js/chunk-4b9b06e0.0e1ea5a6.js rel=prefetch><link href=static/js/chunk-5e53d252.9f1e7002.js rel=prefetch><link href=static/js/chunk-60c6bbd2.f9ca353e.js rel=prefetch><link href=static/js/chunk-6922c06f.b0690551.js rel=prefetch><link href=static/js/chunk-6a5cf5d0.34a5ef09.js rel=prefetch><link href=static/js/chunk-754117c9.c04eacf6.js rel=prefetch><link href=static/js/chunk-76687867.eaf36140.js rel=prefetch><link href=static/js/chunk-8c65274e.f8ac2730.js rel=prefetch><link href=static/js/chunk-b0e4167e.0b5f37fd.js rel=prefetch><link href=static/js/chunk-b859e8b2.b3e4c64d.js rel=prefetch><link href=static/js/chunk-c8588832.389550f9.js rel=prefetch><link href=static/js/chunk-cc40743c.3e27de50.js rel=prefetch><link href=static/css/app.44e8eb62.css rel=preload as=style><link href=static/css/chunk-vendors.a0b7a3b6.css rel=preload as=style><link href=static/js/app.8b3d09fa.js rel=preload as=script><link href=static/js/chunk-vendors.f0e2473c.js rel=preload as=script><link href=static/css/chunk-vendors.a0b7a3b6.css rel=stylesheet><link href=static/css/app.44e8eb62.css rel=stylesheet></head><body><noscript><strong>We're sorry but customer.eship.com doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=static/js/chunk-vendors.f0e2473c.js></script><script src=static/js/app.8b3d09fa.js></script></body></html>
+2020-06-09 14:02:18,300 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>客户登录接口
+2020-06-09 14:02:18,302 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:02:18,303 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/v1/subject/login
+2020-06-09 14:02:18,306 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:02:18,307 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:02:18,307 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:02:18,308 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:02:18,309 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:02:18,309 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:02:17 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Mon, 08-Jun-2020 06:02:17 GMT, JSESSIONID=d8f45653-d2d7-4159-b937-87bc4adda333;domain=17feia.com;path=/;HttpOnly'}
+2020-06-09 14:02:18,310 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-06-09 14:02:18,332 - D:\PycharmProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 msg=>LOGIN_SUCCESS 到全局变量池
+2020-06-09 14:02:18,333 - D:\PycharmProjects\test\common\interfance.py[line:54] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-06-09 14:02:18,446 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>判断是否登录
+2020-06-09 14:02:18,446 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 14:02:18,448 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/public/v1/subject/isLogin
+2020-06-09 14:02:18,448 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:02:18,449 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:02:18,450 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:02:18,451 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:02:18,452 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:02:18,452 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:02:17 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '50', 'Connection': 'keep-alive'}
+2020-06-09 14:02:18,453 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"flag":true,
+	"msg":"## success",
+	"obj":null
+}
+2020-06-09 14:02:18,557 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取公司信息
+2020-06-09 14:02:18,558 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:02:18,559 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/user/getCompanyInfo
+2020-06-09 14:02:18,559 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:02:18,560 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:02:18,561 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:02:18,561 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:02:18,562 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 14:02:18,563 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:02:17 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '149', 'Connection': 'keep-alive'}
+2020-06-09 14:02:18,563 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 14:02:17",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/author/user/getCompanyInfo"
+}
+2020-06-09 14:02:18,689 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取用户信息
+2020-06-09 14:02:18,690 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:02:18,691 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/subject/getLoginCustomerInfo
+2020-06-09 14:02:18,692 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:02:18,693 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:02:18,694 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:02:18,695 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:02:18,695 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 14:02:18,696 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:02:17 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '163', 'Connection': 'keep-alive'}
+2020-06-09 14:02:18,696 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 14:02:17",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/subject/getLoginCustomerInfo"
+}
+2020-06-09 14:02:18,849 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取菜单栏
+2020-06-09 14:02:18,850 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 14:02:18,851 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/menu/findMenusByUser
+2020-06-09 14:02:18,852 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:02:18,853 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:02:18,854 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:02:18,854 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:02:18,857 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 14:02:18,859 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:02:18 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '155', 'Connection': 'keep-alive'}
+2020-06-09 14:02:18,860 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 14:02:18",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/menu/findMenusByUser"
+}
+2020-06-09 14:02:19,305 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>登出
+2020-06-09 14:02:19,305 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 14:02:19,306 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/logout
+2020-06-09 14:02:19,307 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:02:19,307 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:02:19,308 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:02:19,309 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:02:19,309 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:02:19,310 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:02:18 GMT', 'Content-Type': 'text/html', 'Content-Length': '5159', 'Last-Modified': 'Mon, 08 Jun 2020 09:03:14 GMT', 'Connection': 'keep-alive', 'ETag': '"5eddfed2-1427"', 'Accept-Ranges': 'bytes'}
+2020-06-09 14:02:19,311 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====><!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=./favicon.ico type=image/x-icon><title>customer.eship.com</title><script src=./static/assets/js/gt.js></script><script src=./static/assets/js/browser.js></script><link href=http://at.alicdn.com/t/font_1530113_vbnkki1qyn.css rel=stylesheet type=text/css><link href=static/css/chunk-00011340.d2587d2d.css rel=prefetch><link href=static/css/chunk-006dc2e4.062f1d98.css rel=prefetch><link href=static/css/chunk-0477d616.304a389a.css rel=prefetch><link href=static/css/chunk-0af74ad3.face4b9b.css rel=prefetch><link href=static/css/chunk-0bed8262.824a4ef8.css rel=prefetch><link href=static/css/chunk-1018cb42.cb24f1c4.css rel=prefetch><link href=static/css/chunk-111199ab.5167911d.css rel=prefetch><link href=static/css/chunk-11c41ca4.36906228.css rel=prefetch><link href=static/css/chunk-12c72f68.50aa4c00.css rel=prefetch><link href=static/css/chunk-13e95aef.f7070104.css rel=prefetch><link href=static/css/chunk-1c984023.635fbcaa.css rel=prefetch><link href=static/css/chunk-21e35c50.ead47afb.css rel=prefetch><link href=static/css/chunk-2a0c0d69.a79fd2fb.css rel=prefetch><link href=static/css/chunk-2b8781c5.462d5ce3.css rel=prefetch><link href=static/css/chunk-30c42808.3f0cf9c2.css rel=prefetch><link href=static/css/chunk-37b7374a.5f00c13c.css rel=prefetch><link href=static/css/chunk-403a311a.4e237659.css rel=prefetch><link href=static/css/chunk-44a77a3a.24fedd6d.css rel=prefetch><link href=static/css/chunk-459074ad.b346c9de.css rel=prefetch><link href=static/css/chunk-4b9b06e0.2aa8b684.css rel=prefetch><link href=static/css/chunk-5e53d252.cd5c5553.css rel=prefetch><link href=static/css/chunk-60c6bbd2.bacb786d.css rel=prefetch><link href=static/css/chunk-6922c06f.267fc8ed.css rel=prefetch><link href=static/css/chunk-6a5cf5d0.4675d4d7.css rel=prefetch><link href=static/css/chunk-754117c9.c60a95ec.css rel=prefetch><link href=static/css/chunk-76687867.f7c166b1.css rel=prefetch><link href=static/css/chunk-8c65274e.8fb96920.css rel=prefetch><link href=static/css/chunk-b0e4167e.dbdee651.css rel=prefetch><link href=static/css/chunk-b859e8b2.f6014242.css rel=prefetch><link href=static/css/chunk-c8588832.f0d0b75f.css rel=prefetch><link href=static/css/chunk-cc40743c.55d4bf34.css rel=prefetch><link href=static/js/chunk-00011340.28213351.js rel=prefetch><link href=static/js/chunk-006dc2e4.8bee2b47.js rel=prefetch><link href=static/js/chunk-0477d616.7f9ec7a0.js rel=prefetch><link href=static/js/chunk-0af74ad3.231f935e.js rel=prefetch><link href=static/js/chunk-0bed8262.c8eb98e1.js rel=prefetch><link href=static/js/chunk-1018cb42.e510faec.js rel=prefetch><link href=static/js/chunk-111199ab.65038635.js rel=prefetch><link href=static/js/chunk-11c41ca4.dc5fa9ec.js rel=prefetch><link href=static/js/chunk-12c72f68.b1cd921c.js rel=prefetch><link href=static/js/chunk-13e95aef.4750ea96.js rel=prefetch><link href=static/js/chunk-1c984023.8c674f3e.js rel=prefetch><link href=static/js/chunk-21e35c50.9b624024.js rel=prefetch><link href=static/js/chunk-2a0c0d69.76ef0952.js rel=prefetch><link href=static/js/chunk-2b8781c5.662e2b19.js rel=prefetch><link href=static/js/chunk-2d0b2168.3784a800.js rel=prefetch><link href=static/js/chunk-2d0cf3a0.2d53d8c4.js rel=prefetch><link href=static/js/chunk-2d229d78.49f52f60.js rel=prefetch><link href=static/js/chunk-30c42808.c2b29c51.js rel=prefetch><link href=static/js/chunk-37b7374a.31cc15fa.js rel=prefetch><link href=static/js/chunk-403a311a.3d59307c.js rel=prefetch><link href=static/js/chunk-44a77a3a.fecbdd0f.js rel=prefetch><link href=static/js/chunk-459074ad.1161642a.js rel=prefetch><link href=static/js/chunk-4b9b06e0.0e1ea5a6.js rel=prefetch><link href=static/js/chunk-5e53d252.9f1e7002.js rel=prefetch><link href=static/js/chunk-60c6bbd2.f9ca353e.js rel=prefetch><link href=static/js/chunk-6922c06f.b0690551.js rel=prefetch><link href=static/js/chunk-6a5cf5d0.34a5ef09.js rel=prefetch><link href=static/js/chunk-754117c9.c04eacf6.js rel=prefetch><link href=static/js/chunk-76687867.eaf36140.js rel=prefetch><link href=static/js/chunk-8c65274e.f8ac2730.js rel=prefetch><link href=static/js/chunk-b0e4167e.0b5f37fd.js rel=prefetch><link href=static/js/chunk-b859e8b2.b3e4c64d.js rel=prefetch><link href=static/js/chunk-c8588832.389550f9.js rel=prefetch><link href=static/js/chunk-cc40743c.3e27de50.js rel=prefetch><link href=static/css/app.44e8eb62.css rel=preload as=style><link href=static/css/chunk-vendors.a0b7a3b6.css rel=preload as=style><link href=static/js/app.8b3d09fa.js rel=preload as=script><link href=static/js/chunk-vendors.f0e2473c.js rel=preload as=script><link href=static/css/chunk-vendors.a0b7a3b6.css rel=stylesheet><link href=static/css/app.44e8eb62.css rel=stylesheet></head><body><noscript><strong>We're sorry but customer.eship.com doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=static/js/chunk-vendors.f0e2473c.js></script><script src=static/js/app.8b3d09fa.js></script></body></html>
+2020-06-09 14:02:51,782 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>客户登录接口
+2020-06-09 14:02:51,785 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:02:51,785 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/v1/subject/login
+2020-06-09 14:02:51,788 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:02:51,789 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:02:51,790 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:02:51,790 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:02:51,791 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:02:51,792 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:02:51 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Mon, 08-Jun-2020 06:02:50 GMT, JSESSIONID=f6894fb0-fc81-432c-8234-deba870b8e9a;domain=17feia.com;path=/;HttpOnly'}
+2020-06-09 14:02:51,793 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-06-09 14:02:51,811 - D:\PycharmProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 msg=>LOGIN_SUCCESS 到全局变量池
+2020-06-09 14:02:59,215 - D:\PycharmProjects\test\common\interfance.py[line:54] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-06-09 14:03:04,620 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>判断是否登录
+2020-06-09 14:03:04,621 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 14:03:04,621 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/public/v1/subject/isLogin
+2020-06-09 14:03:04,621 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:03:04,622 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:03:04,622 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:03:04,622 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:03:04,623 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:03:04,623 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:03:03 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '50', 'Connection': 'keep-alive'}
+2020-06-09 14:03:04,623 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"flag":true,
+	"msg":"## success",
+	"obj":null
+}
+2020-06-09 14:03:10,459 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取公司信息
+2020-06-09 14:03:10,459 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:03:10,460 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/user/getCompanyInfo
+2020-06-09 14:03:10,461 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:03:10,462 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:03:10,463 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:03:10,463 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:03:10,464 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 14:03:10,464 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:03:09 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '149', 'Connection': 'keep-alive'}
+2020-06-09 14:03:10,465 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 14:03:09",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/author/user/getCompanyInfo"
+}
+2020-06-09 14:03:10,625 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取用户信息
+2020-06-09 14:03:10,626 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:03:10,627 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/subject/getLoginCustomerInfo
+2020-06-09 14:03:10,628 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:03:10,628 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:03:10,629 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:03:10,629 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:03:10,630 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 14:03:10,631 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:03:09 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '163', 'Connection': 'keep-alive'}
+2020-06-09 14:03:10,631 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 14:03:09",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/subject/getLoginCustomerInfo"
+}
+2020-06-09 14:03:10,743 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取菜单栏
+2020-06-09 14:03:10,744 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 14:03:10,744 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/menu/findMenusByUser
+2020-06-09 14:03:10,745 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:03:10,745 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:03:10,746 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:03:10,746 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:03:10,747 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 14:03:10,748 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:03:10 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '155', 'Connection': 'keep-alive'}
+2020-06-09 14:03:10,749 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 14:03:10",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/menu/findMenusByUser"
+}
+2020-06-09 14:03:12,323 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>登出
+2020-06-09 14:03:12,323 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 14:03:12,324 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/logout
+2020-06-09 14:03:12,324 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:03:12,324 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:03:12,325 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:03:12,325 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:03:12,325 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:03:12,326 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:03:10 GMT', 'Content-Type': 'text/html', 'Content-Length': '5159', 'Last-Modified': 'Mon, 08 Jun 2020 09:03:14 GMT', 'Connection': 'keep-alive', 'ETag': '"5eddfed2-1427"', 'Accept-Ranges': 'bytes'}
+2020-06-09 14:03:12,326 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====><!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=./favicon.ico type=image/x-icon><title>customer.eship.com</title><script src=./static/assets/js/gt.js></script><script src=./static/assets/js/browser.js></script><link href=http://at.alicdn.com/t/font_1530113_vbnkki1qyn.css rel=stylesheet type=text/css><link href=static/css/chunk-00011340.d2587d2d.css rel=prefetch><link href=static/css/chunk-006dc2e4.062f1d98.css rel=prefetch><link href=static/css/chunk-0477d616.304a389a.css rel=prefetch><link href=static/css/chunk-0af74ad3.face4b9b.css rel=prefetch><link href=static/css/chunk-0bed8262.824a4ef8.css rel=prefetch><link href=static/css/chunk-1018cb42.cb24f1c4.css rel=prefetch><link href=static/css/chunk-111199ab.5167911d.css rel=prefetch><link href=static/css/chunk-11c41ca4.36906228.css rel=prefetch><link href=static/css/chunk-12c72f68.50aa4c00.css rel=prefetch><link href=static/css/chunk-13e95aef.f7070104.css rel=prefetch><link href=static/css/chunk-1c984023.635fbcaa.css rel=prefetch><link href=static/css/chunk-21e35c50.ead47afb.css rel=prefetch><link href=static/css/chunk-2a0c0d69.a79fd2fb.css rel=prefetch><link href=static/css/chunk-2b8781c5.462d5ce3.css rel=prefetch><link href=static/css/chunk-30c42808.3f0cf9c2.css rel=prefetch><link href=static/css/chunk-37b7374a.5f00c13c.css rel=prefetch><link href=static/css/chunk-403a311a.4e237659.css rel=prefetch><link href=static/css/chunk-44a77a3a.24fedd6d.css rel=prefetch><link href=static/css/chunk-459074ad.b346c9de.css rel=prefetch><link href=static/css/chunk-4b9b06e0.2aa8b684.css rel=prefetch><link href=static/css/chunk-5e53d252.cd5c5553.css rel=prefetch><link href=static/css/chunk-60c6bbd2.bacb786d.css rel=prefetch><link href=static/css/chunk-6922c06f.267fc8ed.css rel=prefetch><link href=static/css/chunk-6a5cf5d0.4675d4d7.css rel=prefetch><link href=static/css/chunk-754117c9.c60a95ec.css rel=prefetch><link href=static/css/chunk-76687867.f7c166b1.css rel=prefetch><link href=static/css/chunk-8c65274e.8fb96920.css rel=prefetch><link href=static/css/chunk-b0e4167e.dbdee651.css rel=prefetch><link href=static/css/chunk-b859e8b2.f6014242.css rel=prefetch><link href=static/css/chunk-c8588832.f0d0b75f.css rel=prefetch><link href=static/css/chunk-cc40743c.55d4bf34.css rel=prefetch><link href=static/js/chunk-00011340.28213351.js rel=prefetch><link href=static/js/chunk-006dc2e4.8bee2b47.js rel=prefetch><link href=static/js/chunk-0477d616.7f9ec7a0.js rel=prefetch><link href=static/js/chunk-0af74ad3.231f935e.js rel=prefetch><link href=static/js/chunk-0bed8262.c8eb98e1.js rel=prefetch><link href=static/js/chunk-1018cb42.e510faec.js rel=prefetch><link href=static/js/chunk-111199ab.65038635.js rel=prefetch><link href=static/js/chunk-11c41ca4.dc5fa9ec.js rel=prefetch><link href=static/js/chunk-12c72f68.b1cd921c.js rel=prefetch><link href=static/js/chunk-13e95aef.4750ea96.js rel=prefetch><link href=static/js/chunk-1c984023.8c674f3e.js rel=prefetch><link href=static/js/chunk-21e35c50.9b624024.js rel=prefetch><link href=static/js/chunk-2a0c0d69.76ef0952.js rel=prefetch><link href=static/js/chunk-2b8781c5.662e2b19.js rel=prefetch><link href=static/js/chunk-2d0b2168.3784a800.js rel=prefetch><link href=static/js/chunk-2d0cf3a0.2d53d8c4.js rel=prefetch><link href=static/js/chunk-2d229d78.49f52f60.js rel=prefetch><link href=static/js/chunk-30c42808.c2b29c51.js rel=prefetch><link href=static/js/chunk-37b7374a.31cc15fa.js rel=prefetch><link href=static/js/chunk-403a311a.3d59307c.js rel=prefetch><link href=static/js/chunk-44a77a3a.fecbdd0f.js rel=prefetch><link href=static/js/chunk-459074ad.1161642a.js rel=prefetch><link href=static/js/chunk-4b9b06e0.0e1ea5a6.js rel=prefetch><link href=static/js/chunk-5e53d252.9f1e7002.js rel=prefetch><link href=static/js/chunk-60c6bbd2.f9ca353e.js rel=prefetch><link href=static/js/chunk-6922c06f.b0690551.js rel=prefetch><link href=static/js/chunk-6a5cf5d0.34a5ef09.js rel=prefetch><link href=static/js/chunk-754117c9.c04eacf6.js rel=prefetch><link href=static/js/chunk-76687867.eaf36140.js rel=prefetch><link href=static/js/chunk-8c65274e.f8ac2730.js rel=prefetch><link href=static/js/chunk-b0e4167e.0b5f37fd.js rel=prefetch><link href=static/js/chunk-b859e8b2.b3e4c64d.js rel=prefetch><link href=static/js/chunk-c8588832.389550f9.js rel=prefetch><link href=static/js/chunk-cc40743c.3e27de50.js rel=prefetch><link href=static/css/app.44e8eb62.css rel=preload as=style><link href=static/css/chunk-vendors.a0b7a3b6.css rel=preload as=style><link href=static/js/app.8b3d09fa.js rel=preload as=script><link href=static/js/chunk-vendors.f0e2473c.js rel=preload as=script><link href=static/css/chunk-vendors.a0b7a3b6.css rel=stylesheet><link href=static/css/app.44e8eb62.css rel=stylesheet></head><body><noscript><strong>We're sorry but customer.eship.com doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=static/js/chunk-vendors.f0e2473c.js></script><script src=static/js/app.8b3d09fa.js></script></body></html>
+2020-06-09 14:06:30,545 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>客户登录接口
+2020-06-09 14:06:30,547 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:06:30,548 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/v1/subject/login
+2020-06-09 14:06:30,571 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:06:30,572 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:06:30,573 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:06:30,573 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:06:30,574 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:06:30,575 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:06:29 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Mon, 08-Jun-2020 06:06:29 GMT, JSESSIONID=149803ba-7778-45d5-952d-b4c788eedc85;domain=17feia.com;path=/;HttpOnly'}
+2020-06-09 14:06:30,575 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-06-09 14:07:15,682 - D:\PycharmProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 msg=>LOGIN_SUCCESS 到全局变量池
+2020-06-09 14:07:29,807 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>判断是否登录
+2020-06-09 14:07:29,808 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 14:07:29,808 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/public/v1/subject/isLogin
+2020-06-09 14:07:29,809 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:07:29,809 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:07:29,810 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:07:29,811 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:07:29,811 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:07:29,811 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:07:29 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '50', 'Connection': 'keep-alive'}
+2020-06-09 14:07:29,812 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"flag":true,
+	"msg":"## success",
+	"obj":null
+}
+2020-06-09 14:08:46,396 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取公司信息
+2020-06-09 14:08:46,397 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:08:46,398 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/user/getCompanyInfo
+2020-06-09 14:08:46,399 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:08:46,400 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:08:46,400 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:08:46,402 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:08:46,404 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 14:08:46,405 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:08:45 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '149', 'Connection': 'keep-alive'}
+2020-06-09 14:08:46,406 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 14:08:45",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/author/user/getCompanyInfo"
+}
+2020-06-09 14:08:46,530 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取用户信息
+2020-06-09 14:08:46,531 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:08:46,532 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/subject/getLoginCustomerInfo
+2020-06-09 14:08:46,533 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:08:46,533 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:08:46,534 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:08:46,535 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:08:46,535 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 14:08:46,536 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:08:45 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '163', 'Connection': 'keep-alive'}
+2020-06-09 14:08:46,537 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 14:08:45",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/subject/getLoginCustomerInfo"
+}
+2020-06-09 14:08:46,662 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>获取菜单栏
+2020-06-09 14:08:46,662 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 14:08:46,663 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/menu/findMenusByUser
+2020-06-09 14:08:46,664 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:08:46,665 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:08:46,665 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:08:46,666 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:08:46,667 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>404
+2020-06-09 14:08:46,667 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:08:45 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '155', 'Connection': 'keep-alive'}
+2020-06-09 14:08:46,668 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"timestamp":"2020-06-09 14:08:45",
+	"status":404,
+	"error":"Not Found",
+	"message":"No message available",
+	"path":"/customer/v1/menu/findMenusByUser"
+}
+2020-06-09 14:08:46,855 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>登出
+2020-06-09 14:08:46,856 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 14:08:46,857 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/customer/v1/logout
+2020-06-09 14:08:46,857 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:08:46,858 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:08:46,859 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:08:46,859 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:08:46,860 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:08:46,861 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:08:46 GMT', 'Content-Type': 'text/html', 'Content-Length': '5159', 'Last-Modified': 'Mon, 08 Jun 2020 09:03:14 GMT', 'Connection': 'keep-alive', 'ETag': '"5eddfed2-1427"', 'Accept-Ranges': 'bytes'}
+2020-06-09 14:08:46,862 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====><!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=./favicon.ico type=image/x-icon><title>customer.eship.com</title><script src=./static/assets/js/gt.js></script><script src=./static/assets/js/browser.js></script><link href=http://at.alicdn.com/t/font_1530113_vbnkki1qyn.css rel=stylesheet type=text/css><link href=static/css/chunk-00011340.d2587d2d.css rel=prefetch><link href=static/css/chunk-006dc2e4.062f1d98.css rel=prefetch><link href=static/css/chunk-0477d616.304a389a.css rel=prefetch><link href=static/css/chunk-0af74ad3.face4b9b.css rel=prefetch><link href=static/css/chunk-0bed8262.824a4ef8.css rel=prefetch><link href=static/css/chunk-1018cb42.cb24f1c4.css rel=prefetch><link href=static/css/chunk-111199ab.5167911d.css rel=prefetch><link href=static/css/chunk-11c41ca4.36906228.css rel=prefetch><link href=static/css/chunk-12c72f68.50aa4c00.css rel=prefetch><link href=static/css/chunk-13e95aef.f7070104.css rel=prefetch><link href=static/css/chunk-1c984023.635fbcaa.css rel=prefetch><link href=static/css/chunk-21e35c50.ead47afb.css rel=prefetch><link href=static/css/chunk-2a0c0d69.a79fd2fb.css rel=prefetch><link href=static/css/chunk-2b8781c5.462d5ce3.css rel=prefetch><link href=static/css/chunk-30c42808.3f0cf9c2.css rel=prefetch><link href=static/css/chunk-37b7374a.5f00c13c.css rel=prefetch><link href=static/css/chunk-403a311a.4e237659.css rel=prefetch><link href=static/css/chunk-44a77a3a.24fedd6d.css rel=prefetch><link href=static/css/chunk-459074ad.b346c9de.css rel=prefetch><link href=static/css/chunk-4b9b06e0.2aa8b684.css rel=prefetch><link href=static/css/chunk-5e53d252.cd5c5553.css rel=prefetch><link href=static/css/chunk-60c6bbd2.bacb786d.css rel=prefetch><link href=static/css/chunk-6922c06f.267fc8ed.css rel=prefetch><link href=static/css/chunk-6a5cf5d0.4675d4d7.css rel=prefetch><link href=static/css/chunk-754117c9.c60a95ec.css rel=prefetch><link href=static/css/chunk-76687867.f7c166b1.css rel=prefetch><link href=static/css/chunk-8c65274e.8fb96920.css rel=prefetch><link href=static/css/chunk-b0e4167e.dbdee651.css rel=prefetch><link href=static/css/chunk-b859e8b2.f6014242.css rel=prefetch><link href=static/css/chunk-c8588832.f0d0b75f.css rel=prefetch><link href=static/css/chunk-cc40743c.55d4bf34.css rel=prefetch><link href=static/js/chunk-00011340.28213351.js rel=prefetch><link href=static/js/chunk-006dc2e4.8bee2b47.js rel=prefetch><link href=static/js/chunk-0477d616.7f9ec7a0.js rel=prefetch><link href=static/js/chunk-0af74ad3.231f935e.js rel=prefetch><link href=static/js/chunk-0bed8262.c8eb98e1.js rel=prefetch><link href=static/js/chunk-1018cb42.e510faec.js rel=prefetch><link href=static/js/chunk-111199ab.65038635.js rel=prefetch><link href=static/js/chunk-11c41ca4.dc5fa9ec.js rel=prefetch><link href=static/js/chunk-12c72f68.b1cd921c.js rel=prefetch><link href=static/js/chunk-13e95aef.4750ea96.js rel=prefetch><link href=static/js/chunk-1c984023.8c674f3e.js rel=prefetch><link href=static/js/chunk-21e35c50.9b624024.js rel=prefetch><link href=static/js/chunk-2a0c0d69.76ef0952.js rel=prefetch><link href=static/js/chunk-2b8781c5.662e2b19.js rel=prefetch><link href=static/js/chunk-2d0b2168.3784a800.js rel=prefetch><link href=static/js/chunk-2d0cf3a0.2d53d8c4.js rel=prefetch><link href=static/js/chunk-2d229d78.49f52f60.js rel=prefetch><link href=static/js/chunk-30c42808.c2b29c51.js rel=prefetch><link href=static/js/chunk-37b7374a.31cc15fa.js rel=prefetch><link href=static/js/chunk-403a311a.3d59307c.js rel=prefetch><link href=static/js/chunk-44a77a3a.fecbdd0f.js rel=prefetch><link href=static/js/chunk-459074ad.1161642a.js rel=prefetch><link href=static/js/chunk-4b9b06e0.0e1ea5a6.js rel=prefetch><link href=static/js/chunk-5e53d252.9f1e7002.js rel=prefetch><link href=static/js/chunk-60c6bbd2.f9ca353e.js rel=prefetch><link href=static/js/chunk-6922c06f.b0690551.js rel=prefetch><link href=static/js/chunk-6a5cf5d0.34a5ef09.js rel=prefetch><link href=static/js/chunk-754117c9.c04eacf6.js rel=prefetch><link href=static/js/chunk-76687867.eaf36140.js rel=prefetch><link href=static/js/chunk-8c65274e.f8ac2730.js rel=prefetch><link href=static/js/chunk-b0e4167e.0b5f37fd.js rel=prefetch><link href=static/js/chunk-b859e8b2.b3e4c64d.js rel=prefetch><link href=static/js/chunk-c8588832.389550f9.js rel=prefetch><link href=static/js/chunk-cc40743c.3e27de50.js rel=prefetch><link href=static/css/app.44e8eb62.css rel=preload as=style><link href=static/css/chunk-vendors.a0b7a3b6.css rel=preload as=style><link href=static/js/app.8b3d09fa.js rel=preload as=script><link href=static/js/chunk-vendors.f0e2473c.js rel=preload as=script><link href=static/css/chunk-vendors.a0b7a3b6.css rel=stylesheet><link href=static/css/app.44e8eb62.css rel=stylesheet></head><body><noscript><strong>We're sorry but customer.eship.com doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=static/js/chunk-vendors.f0e2473c.js></script><script src=static/js/app.8b3d09fa.js></script></body></html>
+2020-06-09 14:10:21,193 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>客户登录接口
+2020-06-09 14:10:21,198 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:10:21,199 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/v1/subject/login
+2020-06-09 14:10:21,204 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:10:21,206 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:10:21,208 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:10:21,210 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:10:21,211 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:10:21,214 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:10:20 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Mon, 08-Jun-2020 06:10:20 GMT, JSESSIONID=427955ca-fd0a-4307-a765-7c89abc75a48;domain=17feia.com;path=/;HttpOnly'}
+2020-06-09 14:10:21,216 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-06-09 14:11:54,965 - D:\PycharmProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 msg=>LOGIN_SUCCESS 到全局变量池
+2020-06-09 14:15:39,931 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>判断是否登录
+2020-06-09 14:15:39,931 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 14:15:39,932 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/public/v1/subject/isLogin
+2020-06-09 14:15:39,933 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:15:39,934 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:15:39,934 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:15:39,935 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:15:39,935 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:15:39,936 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:15:39 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '50', 'Connection': 'keep-alive'}
+2020-06-09 14:15:39,937 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"flag":true,
+	"msg":"## success",
+	"obj":null
+}
+2020-06-09 14:16:03,437 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>客户登录接口
+2020-06-09 14:16:03,441 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 14:16:03,443 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/v1/subject/login
+2020-06-09 14:16:03,448 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:16:03,451 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:16:03,453 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:16:03,454 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:16:03,456 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:16:03,458 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:16:02 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Mon, 08-Jun-2020 06:16:02 GMT, JSESSIONID=92819ec4-b0fc-4601-8cbe-4f203d13119a;domain=17feia.com;path=/;HttpOnly'}
+2020-06-09 14:16:03,460 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-06-09 14:16:08,713 - D:\PycharmProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 msg=>LOGIN_SUCCESS 到全局变量池
+2020-06-09 14:16:16,914 - D:\PycharmProjects\test\common\interfance.py[line:54] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS
+2020-06-09 14:16:35,632 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>判断是否登录
+2020-06-09 14:16:35,634 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>get
+2020-06-09 14:16:35,635 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/public/v1/subject/isLogin
+2020-06-09 14:16:35,638 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 14:16:35,640 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 14:16:35,642 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 14:16:35,644 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 14:16:35,645 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 14:16:35,647 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 06:16:34 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Content-Length': '50', 'Connection': 'keep-alive'}
+2020-06-09 14:16:35,648 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{
+	"flag":true,
+	"msg":"## success",
+	"obj":null
+}
+2020-06-09 17:56:10,135 - D:\PycharmProjects\test\common\interfance.py[line:90] - INFO: 请求描述====>客户登录接口
+2020-06-09 17:56:10,139 - D:\PycharmProjects\test\common\interfance.py[line:91] - INFO: 请求方式====>post
+2020-06-09 17:56:10,141 - D:\PycharmProjects\test\common\interfance.py[line:92] - INFO: 请求地址====>http://customer.17feia.com/author/v1/subject/login
+2020-06-09 17:56:10,146 - D:\PycharmProjects\test\common\interfance.py[line:93] - INFO: 请求头====>{
+    "Content-Type": "application/json"
+}
+2020-06-09 17:56:10,148 - D:\PycharmProjects\test\common\interfance.py[line:94] - INFO: 请求参数====>""
+2020-06-09 17:56:10,150 - D:\PycharmProjects\test\common\interfance.py[line:95] - INFO: 请求体====>null
+2020-06-09 17:56:10,152 - D:\PycharmProjects\test\common\interfance.py[line:96] - INFO: Cookies====>""
+2020-06-09 17:56:10,154 - D:\PycharmProjects\test\common\interfance.py[line:97] - INFO: 接口响应状态码====>200
+2020-06-09 17:56:10,156 - D:\PycharmProjects\test\common\interfance.py[line:98] - INFO: 接口响应头为====>{'Server': 'Tengine/2.2.2', 'Date': 'Tue, 09 Jun 2020 09:56:09 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'rememberMe=deleteMe; Path=/; Max-Age=0; Expires=Mon, 08-Jun-2020 09:56:09 GMT, JSESSIONID=c68e3d48-06b0-432c-abb7-cb22d1c71170;domain=17feia.com;path=/;HttpOnly'}
+2020-06-09 17:56:10,158 - D:\PycharmProjects\test\common\interfance.py[line:99] - INFO: 接口响应体为====>{"msg":"LOGIN_SUCCESS","total":0,"flag":true,"rows":[]}
+
+2020-06-09 17:56:26,414 - D:\PycharmProjects\test\test_case\single_excels.py[line:23] - INFO: 保存 msg=>LOGIN_SUCCESS 到全局变量池
+2020-06-09 18:04:36,631 - D:\PycharmProjects\test\common\interfance.py[line:54] - INFO: 断言成功,实际值:LOGIN_SUCCESS 等于预期值:LOGIN_SUCCESS

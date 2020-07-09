@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="test_case.Test-20191107151130" tests="4" time="0.491">
+	<testcase classname="test_case.Test" name="test_interfance_1" time="0.071"/>
+	<testcase classname="test_case.Test" name="test_interfance_2" time="0.194"/>
+	<testcase classname="test_case.Test" name="test_interfance_3" time="0.129"/>
+	<testcase classname="test_case.Test" name="test_interfance_4" time="0.097"/>
+	<system-out>
+<![CDATA[{}测试开始
+{"password": "toppgo123!@#",'username': 'jing'}
+登录接口
+tearDown
+{}测试开始
+
+获取用户信息
+tearDown
+{}测试开始
+
+查询订舱id
+<class 'str'>
+tearDown
+{}测试开始
+{"id":"","sysmClearanceCompanyNo":"ZHUOZHI","sysmCustomsBrokerNo":"CHANGLING",
+"sysmDrayageCompanyNo":"HLL","type":"NORMAL","randomCategoryName":"cs","flightNo":"000-23490087","takeOffTime":"2019-07-12 00:00:00",
+"firstFlightNo":"ZK001","secondFlightNo":"",
+"transitNo":"","weight":100,"originNo":"SZX","destinationNo":"KIX","sysmBookingPartyNo":"YQF","systAirlineCompany":"ZK",
+"sysmAirlineNo":"SZX-KIX",
+"aviationBookingId":"402888296cdc5c58016cdc690fd00060","aviationOrderNo":"000-23490087","description":"测试","name":"测试主单",
+"orderDescription":"cs","sysmClearanceCompany":"ZHUOZHI","sysmDrayageCompany":"HUOLALA"}
+创建主单
+tearDown
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
